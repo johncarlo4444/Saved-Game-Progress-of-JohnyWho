@@ -1,0 +1,296 @@
+Mono path[0] = 'C:/Users/John Rome Ilagan/Saved Games/Chill.With.You.Lo.Fi.Story.v1.0.10/Chill.With.You.Lo.Fi.Story.v1.0.10/Chill With You_Data/Managed'
+Mono config path = 'C:/Users/John Rome Ilagan/Saved Games/Chill.With.You.Lo.Fi.Story.v1.0.10/Chill.With.You.Lo.Fi.Story.v1.0.10/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Initialize engine version: 2022.3.62f2 (7670c08855a9)
+[Subsystems] Discovering subsystems at path C:/Users/John Rome Ilagan/Saved Games/Chill.With.You.Lo.Fi.Story.v1.0.10/Chill.With.You.Lo.Fi.Story.v1.0.10/Chill With You_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1; jobified=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 6GB Laptop GPU (ID=0x25ec)
+    Vendor:   NVIDIA
+    VRAM:     6002 MB
+    Driver:   32.0.15.8186
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  4.659 seconds
+- Finished resetting the current domain, in  0.001 seconds
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 1.322800 ms
+Loaded HRTF: default.
+(DS)
+WHnh+rZQ6n5JYCQroC5s7rIfoxGlzK6knEuLeXax+5kmmhWqPLAGbVQr3YQK3ixrKlRnhYy3sDw2RPYUawWkKw==
+(DE)
+(DS)
+WHnh+rZQ6n5JYCQroC5s7rMVHnUbCck9IavzCAFebz5rfS4wh5zkxnQ0KpZXTn8bJU8PJetv7f7nRDd2UEFqiA==
+(DE)
+(DS)
+WHnh+rZQ6n5JYCQroC5s7rIfoxGlzK6knEuLeXax+5mxH5aWM3GNnX+c4LATtI9vPp3gYUSsWUucwzkGbG5uJmp6/tOB3HL92bHuuoJZgLancdpV6FITTvcUwVRZupjB
+(DE)
+(DS)
+WHnh+rZQ6n5JYCQroC5s7rMVHnUbCck9IavzCAFebz7T67pZSeZELvG1pj/54Go3oTRqM0YscZot9SGRnTgWog==
+(DE)
+(DS)
+WHnh+rZQ6n5JYCQroC5s7rIfoxGlzK6knEuLeXax+5k62Vrx8zGfHUDSep3mIYhk
+(DE)
+(DS)
+WHnh+rZQ6n5JYCQroC5s7rIfoxGlzK6knEuLeXax+5nF+XHZycmoTuN/vsWwmbuPO3mrKVo2W4ifNG4qQs76+w==
+(DE)
+(DS)
+WHnh+rZQ6n5JYCQroC5s7rIfoxGlzK6knEuLeXax+5k3Os/dPVyE1warHHv+tkOd7Oe0Gs/ePO2Ywh3TkGA+lg==
+(DE)
+(DS)
+WHnh+rZQ6n5JYCQroC5s7ptyB7T0ssP+QMcb61wYD6WF6lm+PITZLB66fgYSBNdz5jo1EM7q7Z6AGtYWMmFQoA==
+(DE)
+Unloading 5 Unused Serialized files (Serialized files now loaded: 4)
+(DS)
+WHnh+rZQ6n5JYCQroC5s7ptyB7T0ssP+QMcb61wYD6WF6lm+PITZLB66fgYSBNdzgmJ/3ovXRgOB2o2HDByJwA==
+(DE)
+Only custom filters can be played. Please add a custom filter or an audioclip to the audiosource (VoiceManager).
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+UnloadTime: 2.894900 ms
+(DS)
+BMR7K7xH2CD2RBmrEun9acHq00+ME/jjdaR93WC8XArSjggz3SUPEjETjOpdA0S3
+(DE)
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 23473.
+Total: 5.794600 ms (FindLiveObjects: 0.975000 ms CreateObjectMapping: 0.259100 ms MarkObjects: 4.491600 ms  DeleteObjects: 0.068100 ms)
+
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+Crash!!!
+SymInit: Symbol-SearchPath: '.;C:\Users\John Rome Ilagan\Saved Games\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill.With.You.Lo.Fi.Story.v1.0.10;C:/Users/John Rome Ilagan/Saved Games/Chill.With.You.Lo.Fi.Story.v1.0.10/Chill.With.You.Lo.Fi.Story.v1.0.10/Chill With You_Data/Plugins\x86_64;C:/Users/John Rome Ilagan/Saved Games/Chill.With.You.Lo.Fi.Story.v1.0.10/Chill.With.You.Lo.Fi.Story.v1.0.10/Chill With You_Data/Plugins;C:\Users\John Rome Ilagan\Saved Games\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill.With.You.Lo.Fi.Story.v1.0.10;C:\Windows;C:\Windows\system32;', symOptions: 534, UserName: 'John Rome Ilagan'
+OS-Version: 10.0.0
+C:\Users\John Rome Ilagan\Saved Games\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill With You.exe:Chill With You.exe (00007FF6AC330000), size: 688128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2022.3.62.28864
+C:\Windows\SYSTEM32\ntdll.dll:ntdll.dll (00007FFEEC620000), size: 2519040 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\Windows\System32\KERNEL32.DLL:KERNEL32.DLL (00007FFEEB260000), size: 823296 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\Windows\System32\KERNELBASE.dll:KERNELBASE.dll (00007FFEE8F00000), size: 4132864 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\Users\John Rome Ilagan\Saved Games\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill.With.You.Lo.Fi.Story.v1.0.10\UnityPlayer.dll:UnityPlayer.dll (00007FFE6EA20000), size: 31965184 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2022.3.62.28864
+C:\Windows\System32\USER32.dll:USER32.dll (00007FFEEB090000), size: 1855488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\Windows\System32\win32u.dll:win32u.dll (00007FFEE94E0000), size: 159744 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8036
+C:\Windows\System32\GDI32.dll:GDI32.dll (00007FFEEA5B0000), size: 176128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8036
+C:\Windows\System32\gdi32full.dll:gdi32full.dll (00007FFEEA290000), size: 1224704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8036
+C:\Windows\System32\msvcp_win.dll:msvcp_win.dll (00007FFEEA1E0000), size: 667648 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7623
+C:\Windows\System32\ucrtbase.dll:ucrtbase.dll (00007FFEE9390000), size: 1355776 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7623
+C:\Windows\System32\ole32.dll:ole32.dll (00007FFEEBC90000), size: 1658880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\Windows\System32\combase.dll:combase.dll (00007FFEEBF30000), size: 3678208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\Windows\System32\RPCRT4.dll:RPCRT4.dll (00007FFEEBAC0000), size: 1146880 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8036
+C:\Windows\SYSTEM32\VERSION.dll:VERSION.dll (00007FFEDDC70000), size: 45056 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
+C:\Windows\System32\msvcrt.dll:msvcrt.dll (00007FFEEBBE0000), size: 692224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 7.0.26100.7623
+C:\Windows\System32\SHLWAPI.dll:SHLWAPI.dll (00007FFEEBE30000), size: 421888 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\Windows\System32\Windows.Storage.dll:Windows.Storage.dll (00007FFEE9510000), size: 8798208 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8036
+C:\Windows\System32\advapi32.dll:advapi32.dll (00007FFEEAFC0000), size: 765952 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\Windows\System32\sechost.dll:sechost.dll (00007FFEEA6D0000), size: 684032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\Windows\System32\SETUPAPI.dll:SETUPAPI.dll (00007FFEEA780000), size: 4747264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\Windows\System32\SHELL32.dll:SHELL32.dll (00007FFEEB350000), size: 7729152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\Windows\System32\wintypes.dll:wintypes.dll (00007FFEE9FC0000), size: 1482752 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\Windows\System32\OLEAUT32.dll:OLEAUT32.dll (00007FFEEAED0000), size: 880640 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\Windows\System32\IMM32.dll:IMM32.dll (00007FFEEA690000), size: 200704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
+C:\Windows\SYSTEM32\WINMM.dll:WINMM.dll (00007FFEE6280000), size: 217088 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
+C:\Windows\System32\CRYPT32.dll:CRYPT32.dll (00007FFEE9E40000), size: 1536000 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
+C:\Windows\System32\WS2_32.dll:WS2_32.dll (00007FFEEA5E0000), size: 475136 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7623
+C:\Windows\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FFEDF6A0000), size: 1208320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\Windows\SYSTEM32\bcrypt.dll:bcrypt.dll (00007FFEE8DF0000), size: 172032 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7623
+C:\Windows\SYSTEM32\HID.DLL:HID.DLL (00007FFEE73C0000), size: 61440 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
+C:\Windows\SYSTEM32\dwmapi.dll:dwmapi.dll (00007FFEE3690000), size: 188416 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\Windows\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFE7B730000), size: 1105920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\Windows\SYSTEM32\GLU32.dll:GLU32.dll (00007FFEA0380000), size: 184320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
+C:\Windows\SYSTEM32\dxcore.dll:dxcore.dll (00007FFEE6750000), size: 274432 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\Windows\system32\apphelp.dll:apphelp.dll (00007FFEE3270000), size: 651264 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\Windows\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FFEE7DB0000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\Windows\System32\bcryptPrimitives.dll:bcryptPrimitives.dll (00007FFEEA130000), size: 675840 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7623
+C:\Windows\system32\uxtheme.dll:uxtheme.dll (00007FFEE33D0000), size: 696320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\Windows\System32\shcore.dll:shcore.dll (00007FFEEA3C0000), size: 1011712 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\Windows\SYSTEM32\profapi.dll:profapi.dll (00007FFEE8E20000), size: 167936 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
+C:\Users\John Rome Ilagan\Saved Games\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill.With.You.Lo.Fi.Story.v1.0.10\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll:mono-2.0-bdwgc.dll (00007FFE6DFC0000), size: 10825728 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Users\John Rome Ilagan\Saved Games\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill With You_Data\Plugins\x86_64\audioplugin_phonon.dll:audioplugin_phonon.dll (00007FFEA0080000), size: 176128 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 4.5.3.0
+C:\Windows\System32\MSCTF.dll:MSCTF.dll (00007FFEEC2C0000), size: 1429504 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\Windows\SYSTEM32\d3d11.dll:d3d11.dll (00007FFEE2520000), size: 2502656 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\Windows\SYSTEM32\dxgi.dll:dxgi.dll (00007FFEE3520000), size: 1302528 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\Windows\SYSTEM32\powrprof.dll:powrprof.dll (00007FFEE7B00000), size: 385024 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.3912
+C:\Windows\SYSTEM32\UMPDC.dll:UMPDC.dll (00007FFEE7AE0000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\Windows\SYSTEM32\directxdatabasehelper.dll:directxdatabasehelper.dll (00007FFEDFCA0000), size: 393216 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\Windows\SYSTEM32\cfgmgr32.dll:cfgmgr32.dll (00007FFEE8B90000), size: 356352 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
+C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_949baa7b659dc7f0\nvldumdx.dll:nvldumdx.dll (00007FFE961F0000), size: 802816 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.15.8186
+C:\Windows\SYSTEM32\msasn1.dll:msasn1.dll (00007FFEE8730000), size: 77824 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7623
+C:\Windows\SYSTEM32\cryptnet.dll:cryptnet.dll (00007FFEDC8F0000), size: 241664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
+C:\Windows\SYSTEM32\cryptbase.dll:cryptbase.dll (00007FFEE8620000), size: 49152 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7623
+C:\Windows\SYSTEM32\wldp.dll:wldp.dll (00007FFEE86C0000), size: 425984 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\Windows\SYSTEM32\drvstore.dll:drvstore.dll (00007FFEDC5B0000), size: 1540096 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\Windows\SYSTEM32\devobj.dll:devobj.dll (00007FFEE8B60000), size: 184320 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1150
+C:\Windows\System32\wintrust.dll:wintrust.dll (00007FFEE9300000), size: 528384 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.8036
+C:\Windows\System32\imagehlp.dll:imagehlp.dll (00007FFEEA660000), size: 131072 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.4202
+C:\Windows\SYSTEM32\CRYPTSP.dll:CRYPTSP.dll (00007FFEE8600000), size: 110592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7705
+C:\Windows\system32\rsaenh.dll:rsaenh.dll (00007FFEE7D10000), size: 233472 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7705
+C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_949baa7b659dc7f0\nvgpucomp64.dll:nvgpucomp64.dll (00007FFE6A220000), size: 64569344 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.15.8186
+C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_949baa7b659dc7f0\NvMemMapStoragex.dll:NvMemMapStoragex.dll (00007FFE744C0000), size: 909312 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_949baa7b659dc7f0\nvwgf2umx.dll:nvwgf2umx.dll (00007FFE649E0000), size: 92491776 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.15.8186
+C:\Windows\system32\nvspcap64.dll:nvspcap64.dll (00007FFE64710000), size: 2949120 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 3.28.0.417
+C:\Windows\SYSTEM32\ntmarta.dll:ntmarta.dll (00007FFEE7ED0000), size: 221184 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7019
+C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_949baa7b659dc7f0\nvppex.dll:nvppex.dll (00007FFE64550000), size: 1798144 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.15.8186
+C:\Windows\System32\clbcatq.dll:clbcatq.dll (00007FFEEC520000), size: 712704 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 2001.12.10941.16384
+C:\Windows\System32\MMDevApi.dll:MMDevApi.dll (00007FFED9EF0000), size: 622592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\Windows\SYSTEM32\AUDIOSES.DLL:AUDIOSES.DLL (00007FFED3470000), size: 1777664 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\Windows\SYSTEM32\resourcepolicyclient.dll:resourcepolicyclient.dll (00007FFEE6AD0000), size: 81920 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7309
+C:\Users\John Rome Ilagan\Saved Games\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill With You_Data\Plugins\x86_64\lib_burst_generated.dll:lib_burst_generated.dll (00007FFE63200000), size: 884736 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_0ef1b60d464b7740\igd10iumd64.dll:igd10iumd64.dll (00007FFEDBF60000), size: 5353472 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.101.7026
+C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_0ef1b60d464b7740\igd10um64xe.DLL:igd10um64xe.DLL (00007FFEDA8A0000), size: 17924096 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.101.7026
+C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_0ef1b60d464b7740\IntelControlLib.dll:IntelControlLib.dll (00007FFE9FE50000), size: 716800 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.2.252.0
+C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_0ef1b60d464b7740\igdgmm2_64.dll:igdgmm2_64.dll (00007FFEDA840000), size: 339968 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.101.7026
+C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_0ef1b60d464b7740\igdgmm64.dll:igdgmm64.dll (00007FFEDA220000), size: 5943296 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.101.7026
+C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_0ef1b60d464b7740\igc64.dll:igc64.dll (00007FFED4C50000), size: 86638592 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 32.0.101.7026
+C:\Windows\SYSTEM32\dcomp.dll:dcomp.dll (00007FFEE2790000), size: 2228224 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\Windows\SYSTEM32\Microsoft.Internal.WarpPal.dll:Microsoft.Internal.WarpPal.dll (00007FFEE1B90000), size: 102400 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Windows\SYSTEM32\textinputframework.dll:textinputframework.dll (00007FFEAE110000), size: 1343488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+C:\Users\John Rome Ilagan\Saved Games\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill With You_Data\Plugins\x86_64\steam_api64.dll:steam_api64.dll (00007FFE630E0000), size: 1159168 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 1.0.1.54
+C:\Windows\System32\PSAPI.DLL:PSAPI.DLL (00007FFEEBEA0000), size: 32768 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.1
+C:\Users\John Rome Ilagan\Saved Games\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill With You_Data\Plugins\x86_64\phonon.dll:phonon.dll (00007FFE61A40000), size: 20983808 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 4.5.3.0
+C:\Users\John Rome Ilagan\Saved Games\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill.With.You.Lo.Fi.Story.v1.0.10\MonoBleedingEdge\EmbedRuntime\MonoPosixHelper.dll:MonoPosixHelper.dll (00007FFE615A0000), size: 626688 (result: 0), SymType: '-deferred-', PDB: ''
+C:\Windows\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFEE6D10000), size: 2367488 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.5074
+C:\Windows\SYSTEM32\SspiCli.dll:SspiCli.dll (00007FFEE8050000), size: 299008 (result: 0), SymType: '-deferred-', PDB: '', fileVersion: 10.0.26100.7920
+
+========== OUTPUTTING STACK TRACE ==================
+
+0x00007FFEEB09C396 (USER32) CallWindowProcW
+0x00007FFEEB09BC1C (USER32) SendMessageW
+0x00007FFEEB0D2CE3 (USER32) GetWindowDpiAwarenessContext
+0x00007FFEEC785AB4 (ntdll) KiUserCallbackDispatcher
+0x00007FFEE94E2554 (win32u) NtUserDestroyWindow
+SymInit: Symbol-SearchPath: '.;C:\Users\John Rome Ilagan\Saved Games\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill.With.You.Lo.Fi.Story.v1.0.10;C:/Users/John Rome Ilagan/Saved Games/Chill.With.You.Lo.Fi.Story.v1.0.10/Chill.With.You.Lo.Fi.Story.v1.0.10/Chill With You_Data/Plugins\x86_64;C:/Users/John Rome Ilagan/Saved Games/Chill.With.You.Lo.Fi.Story.v1.0.10/Chill.With.You.Lo.Fi.Story.v1.0.10/Chill With You_Data/Plugins;C:\Users\John Rome Ilagan\Saved Games\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill.With.You.Lo.Fi.Story.v1.0.10;C:\Windows;C:\Windows\system32;', symOptions: 534, UserName: 'John Rome Ilagan'
+OS-Version: 10.0.0
+C:\Users\John Rome Ilagan\Saved Games\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill With You.exe:Chill With You.exe (00007FF6AC330000), size: 688128 (result: 0), SymType: '-exported-', PDB: 'C:\Users\John Rome Ilagan\Saved Games\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill With You.exe', fileVersion: 2022.3.62.28864
+C:\Windows\SYSTEM32\ntdll.dll:ntdll.dll (00007FFEEC620000), size: 2519040 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\ntdll.dll', fileVersion: 10.0.26100.7920
+C:\Windows\System32\KERNEL32.DLL:KERNEL32.DLL (00007FFEEB260000), size: 823296 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\KERNEL32.DLL', fileVersion: 10.0.26100.7920
+C:\Windows\System32\KERNELBASE.dll:KERNELBASE.dll (00007FFEE8F00000), size: 4132864 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\KERNELBASE.dll', fileVersion: 10.0.26100.7920
+C:\Users\John Rome Ilagan\Saved Games\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill.With.You.Lo.Fi.Story.v1.0.10\UnityPlayer.dll:UnityPlayer.dll (00007FFE6EA20000), size: 31965184 (result: 0), SymType: '-exported-', PDB: 'C:\Users\John Rome Ilagan\Saved Games\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill.With.You.Lo.Fi.Story.v1.0.10\UnityPlayer.dll', fileVersion: 2022.3.62.28864
+C:\Windows\System32\USER32.dll:USER32.dll (00007FFEEB090000), size: 1855488 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\USER32.dll', fileVersion: 10.0.26100.7920
+C:\Windows\System32\win32u.dll:win32u.dll (00007FFEE94E0000), size: 159744 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\win32u.dll', fileVersion: 10.0.26100.8036
+C:\Windows\System32\GDI32.dll:GDI32.dll (00007FFEEA5B0000), size: 176128 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\GDI32.dll', fileVersion: 10.0.26100.8036
+C:\Windows\System32\gdi32full.dll:gdi32full.dll (00007FFEEA290000), size: 1224704 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\gdi32full.dll', fileVersion: 10.0.26100.8036
+C:\Windows\System32\msvcp_win.dll:msvcp_win.dll (00007FFEEA1E0000), size: 667648 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\msvcp_win.dll', fileVersion: 10.0.26100.7623
+C:\Windows\System32\ucrtbase.dll:ucrtbase.dll (00007FFEE9390000), size: 1355776 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\ucrtbase.dll', fileVersion: 10.0.26100.7623
+C:\Windows\System32\ole32.dll:ole32.dll (00007FFEEBC90000), size: 1658880 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\ole32.dll', fileVersion: 10.0.26100.7920
+C:\Windows\System32\combase.dll:combase.dll (00007FFEEBF30000), size: 3678208 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\combase.dll', fileVersion: 10.0.26100.7920
+C:\Windows\System32\RPCRT4.dll:RPCRT4.dll (00007FFEEBAC0000), size: 1146880 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\RPCRT4.dll', fileVersion: 10.0.26100.8036
+C:\Windows\SYSTEM32\VERSION.dll:VERSION.dll (00007FFEDDC70000), size: 45056 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\VERSION.dll', fileVersion: 10.0.26100.1150
+C:\Windows\System32\msvcrt.dll:msvcrt.dll (00007FFEEBBE0000), size: 692224 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\msvcrt.dll', fileVersion: 7.0.26100.7623
+C:\Windows\System32\SHLWAPI.dll:SHLWAPI.dll (00007FFEEBE30000), size: 421888 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\SHLWAPI.dll', fileVersion: 10.0.26100.7920
+C:\Windows\System32\Windows.Storage.dll:Windows.Storage.dll (00007FFEE9510000), size: 8798208 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\Windows.Storage.dll', fileVersion: 10.0.26100.8036
+C:\Windows\System32\advapi32.dll:advapi32.dll (00007FFEEAFC0000), size: 765952 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\advapi32.dll', fileVersion: 10.0.26100.7920
+C:\Windows\System32\sechost.dll:sechost.dll (00007FFEEA6D0000), size: 684032 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\sechost.dll', fileVersion: 10.0.26100.7920
+C:\Windows\System32\SETUPAPI.dll:SETUPAPI.dll (00007FFEEA780000), size: 4747264 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\SETUPAPI.dll', fileVersion: 10.0.26100.7920
+C:\Windows\System32\SHELL32.dll:SHELL32.dll (00007FFEEB350000), size: 7729152 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\SHELL32.dll', fileVersion: 10.0.26100.7920
+C:\Windows\System32\wintypes.dll:wintypes.dll (00007FFEE9FC0000), size: 1482752 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\wintypes.dll', fileVersion: 10.0.26100.7920
+C:\Windows\System32\OLEAUT32.dll:OLEAUT32.dll (00007FFEEAED0000), size: 880640 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\OLEAUT32.dll', fileVersion: 10.0.26100.7920
+C:\Windows\System32\IMM32.dll:IMM32.dll (00007FFEEA690000), size: 200704 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\IMM32.dll', fileVersion: 10.0.26100.7309
+C:\Windows\SYSTEM32\WINMM.dll:WINMM.dll (00007FFEE6280000), size: 217088 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WINMM.dll', fileVersion: 10.0.26100.7309
+C:\Windows\System32\CRYPT32.dll:CRYPT32.dll (00007FFEE9E40000), size: 1536000 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\CRYPT32.dll', fileVersion: 10.0.26100.7309
+C:\Windows\System32\WS2_32.dll:WS2_32.dll (00007FFEEA5E0000), size: 475136 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\WS2_32.dll', fileVersion: 10.0.26100.7623
+C:\Windows\SYSTEM32\WINHTTP.dll:WINHTTP.dll (00007FFEDF6A0000), size: 1208320 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WINHTTP.dll', fileVersion: 10.0.26100.7920
+C:\Windows\SYSTEM32\bcrypt.dll:bcrypt.dll (00007FFEE8DF0000), size: 172032 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\bcrypt.dll', fileVersion: 10.0.26100.7623
+C:\Windows\SYSTEM32\HID.DLL:HID.DLL (00007FFEE73C0000), size: 61440 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\HID.DLL', fileVersion: 10.0.26100.1150
+C:\Windows\SYSTEM32\dwmapi.dll:dwmapi.dll (00007FFEE3690000), size: 188416 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\dwmapi.dll', fileVersion: 10.0.26100.7920
+C:\Windows\SYSTEM32\OPENGL32.dll:OPENGL32.dll (00007FFE7B730000), size: 1105920 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\OPENGL32.dll', fileVersion: 10.0.26100.7920
+C:\Windows\SYSTEM32\GLU32.dll:GLU32.dll (00007FFEA0380000), size: 184320 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\GLU32.dll', fileVersion: 10.0.26100.1150
+C:\Windows\SYSTEM32\dxcore.dll:dxcore.dll (00007FFEE6750000), size: 274432 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\dxcore.dll', fileVersion: 10.0.26100.7920
+C:\Windows\system32\apphelp.dll:apphelp.dll (00007FFEE3270000), size: 651264 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\apphelp.dll', fileVersion: 10.0.26100.7920
+C:\Windows\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (00007FFEE7DB0000), size: 110592 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\kernel.appcore.dll', fileVersion: 10.0.26100.7920
+C:\Windows\System32\bcryptPrimitives.dll:bcryptPrimitives.dll (00007FFEEA130000), size: 675840 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\bcryptPrimitives.dll', fileVersion: 10.0.26100.7623
+C:\Windows\system32\uxtheme.dll:uxtheme.dll (00007FFEE33D0000), size: 696320 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\uxtheme.dll', fileVersion: 10.0.26100.7920
+C:\Windows\System32\shcore.dll:shcore.dll (00007FFEEA3C0000), size: 1011712 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\shcore.dll', fileVersion: 10.0.26100.7920
+C:\Windows\SYSTEM32\profapi.dll:profapi.dll (00007FFEE8E20000), size: 167936 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\SYSTEM32\profapi.dll', fileVersion: 10.0.26100.7309
+C:\Users\John Rome Ilagan\Saved Games\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill.With.You.Lo.Fi.Story.v1.0.10\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll:mono-2.0-bdwgc.dll (00007FFE6DFC0000), size: 10825728 (result: 0), SymType: '-exported-', PDB: 'C:\Users\John Rome Ilagan\Saved Games\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill.With.You.Lo.Fi.Story.v1.0.10\MonoBleedingEdge\EmbedRuntime\mono-2.0-bdwgc.dll'
+C:\Users\John Rome Ilagan\Saved Games\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill With You_Data\Plugins\x86_64\audioplugin_phonon.dll:audioplugin_phonon.dll (00007FFEA0080000), size: 176128 (result: 0), SymType: '-exported-', PDB: 'C:\Users\John Rome Ilagan\Saved Games\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill With You_Data\Plugins\x86_64\audioplugin_phonon.dll', fileVersion: 4.5.3.0
+C:\Windows\System32\MSCTF.dll:MSCTF.dll (00007FFEEC2C0000), size: 1429504 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\MSCTF.dll', fileVersion: 10.0.26100.7920
+C:\Windows\SYSTEM32\d3d11.dll:d3d11.dll (00007FFEE2520000), size: 2502656 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\d3d11.dll', fileVersion: 10.0.26100.7920
+C:\Windows\SYSTEM32\dxgi.dll:dxgi.dll (00007FFEE3520000), size: 1302528 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\dxgi.dll', fileVersion: 10.0.26100.7920
+C:\Windows\SYSTEM32\powrprof.dll:powrprof.dll (00007FFEE7B00000), size: 385024 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\powrprof.dll', fileVersion: 10.0.26100.3912
+C:\Windows\SYSTEM32\UMPDC.dll:UMPDC.dll (00007FFEE7AE0000), size: 81920 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\UMPDC.dll', fileVersion: 10.0.26100.7019
+C:\Windows\SYSTEM32\directxdatabasehelper.dll:directxdatabasehelper.dll (00007FFEDFCA0000), size: 393216 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\SYSTEM32\directxdatabasehelper.dll', fileVersion: 10.0.26100.7920
+C:\Windows\SYSTEM32\cfgmgr32.dll:cfgmgr32.dll (00007FFEE8B90000), size: 356352 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\cfgmgr32.dll', fileVersion: 10.0.26100.7309
+C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_949baa7b659dc7f0\nvldumdx.dll:nvldumdx.dll (00007FFE961F0000), size: 802816 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_949baa7b659dc7f0\nvldumdx.dll', fileVersion: 32.0.15.8186
+C:\Windows\SYSTEM32\msasn1.dll:msasn1.dll (00007FFEE8730000), size: 77824 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\msasn1.dll', fileVersion: 10.0.26100.7623
+C:\Windows\SYSTEM32\cryptnet.dll:cryptnet.dll (00007FFEDC8F0000), size: 241664 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\cryptnet.dll', fileVersion: 10.0.26100.7309
+C:\Windows\SYSTEM32\cryptbase.dll:cryptbase.dll (00007FFEE8620000), size: 49152 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\cryptbase.dll', fileVersion: 10.0.26100.7623
+C:\Windows\SYSTEM32\wldp.dll:wldp.dll (00007FFEE86C0000), size: 425984 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\wldp.dll', fileVersion: 10.0.26100.7920
+C:\Windows\SYSTEM32\drvstore.dll:drvstore.dll (00007FFEDC5B0000), size: 1540096 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\drvstore.dll', fileVersion: 10.0.26100.7920
+C:\Windows\SYSTEM32\devobj.dll:devobj.dll (00007FFEE8B60000), size: 184320 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\devobj.dll', fileVersion: 10.0.26100.1150
+C:\Windows\System32\wintrust.dll:wintrust.dll (00007FFEE9300000), size: 528384 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\wintrust.dll', fileVersion: 10.0.26100.8036
+C:\Windows\System32\imagehlp.dll:imagehlp.dll (00007FFEEA660000), size: 131072 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\imagehlp.dll', fileVersion: 10.0.26100.4202
+C:\Windows\SYSTEM32\CRYPTSP.dll:CRYPTSP.dll (00007FFEE8600000), size: 110592 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\CRYPTSP.dll', fileVersion: 10.0.26100.7705
+C:\Windows\system32\rsaenh.dll:rsaenh.dll (00007FFEE7D10000), size: 233472 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\rsaenh.dll', fileVersion: 10.0.26100.7705
+C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_949baa7b659dc7f0\nvgpucomp64.dll:nvgpucomp64.dll (00007FFE6A220000), size: 64569344 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_949baa7b659dc7f0\nvgpucomp64.dll', fileVersion: 32.0.15.8186
+C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_949baa7b659dc7f0\NvMemMapStoragex.dll:NvMemMapStoragex.dll (00007FFE744C0000), size: 909312 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_949baa7b659dc7f0\NvMemMapStoragex.dll'
+C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_949baa7b659dc7f0\nvwgf2umx.dll:nvwgf2umx.dll (00007FFE649E0000), size: 92491776 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_949baa7b659dc7f0\nvwgf2umx.dll', fileVersion: 32.0.15.8186
+C:\Windows\system32\nvspcap64.dll:nvspcap64.dll (00007FFE64710000), size: 2949120 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\nvspcap64.dll', fileVersion: 3.28.0.417
+C:\Windows\SYSTEM32\ntmarta.dll:ntmarta.dll (00007FFEE7ED0000), size: 221184 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\ntmarta.dll', fileVersion: 10.0.26100.7019
+C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_949baa7b659dc7f0\nvppex.dll:nvppex.dll (00007FFE64550000), size: 1798144 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_949baa7b659dc7f0\nvppex.dll', fileVersion: 32.0.15.8186
+C:\Windows\System32\clbcatq.dll:clbcatq.dll (00007FFEEC520000), size: 712704 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\clbcatq.dll', fileVersion: 2001.12.10941.16384
+C:\Windows\System32\MMDevApi.dll:MMDevApi.dll (00007FFED9EF0000), size: 622592 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\MMDevApi.dll', fileVersion: 10.0.26100.7920
+C:\Windows\SYSTEM32\AUDIOSES.DLL:AUDIOSES.DLL (00007FFED3470000), size: 1777664 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\AUDIOSES.DLL', fileVersion: 10.0.26100.7920
+C:\Windows\SYSTEM32\resourcepolicyclient.dll:resourcepolicyclient.dll (00007FFEE6AD0000), size: 81920 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\resourcepolicyclient.dll', fileVersion: 10.0.26100.7309
+C:\Users\John Rome Ilagan\Saved Games\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill With You_Data\Plugins\x86_64\lib_burst_generated.dll:lib_burst_generated.dll (00007FFE63200000), size: 884736 (result: 0), SymType: '-exported-', PDB: 'C:\Users\John Rome Ilagan\Saved Games\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill With You_Data\Plugins\x86_64\lib_burst_generated.dll'
+C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_0ef1b60d464b7740\igd10iumd64.dll:igd10iumd64.dll (00007FFEDBF60000), size: 5353472 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_0ef1b60d464b7740\igd10iumd64.dll', fileVersion: 32.0.101.7026
+C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_0ef1b60d464b7740\igd10um64xe.DLL:igd10um64xe.DLL (00007FFEDA8A0000), size: 17924096 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_0ef1b60d464b7740\igd10um64xe.DLL', fileVersion: 32.0.101.7026
+C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_0ef1b60d464b7740\IntelControlLib.dll:IntelControlLib.dll (00007FFE9FE50000), size: 716800 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_0ef1b60d464b7740\IntelControlLib.dll', fileVersion: 1.2.252.0
+C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_0ef1b60d464b7740\igdgmm2_64.dll:igdgmm2_64.dll (00007FFEDA840000), size: 339968 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_0ef1b60d464b7740\igdgmm2_64.dll', fileVersion: 32.0.101.7026
+C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_0ef1b60d464b7740\igdgmm64.dll:igdgmm64.dll (00007FFEDA220000), size: 5943296 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_0ef1b60d464b7740\igdgmm64.dll', fileVersion: 32.0.101.7026
+C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_0ef1b60d464b7740\igc64.dll:igc64.dll (00007FFED4C50000), size: 86638592 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_0ef1b60d464b7740\igc64.dll', fileVersion: 32.0.101.7026
+C:\Windows\SYSTEM32\dcomp.dll:dcomp.dll (00007FFEE2790000), size: 2228224 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\dcomp.dll', fileVersion: 10.0.26100.7920
+C:\Windows\SYSTEM32\Microsoft.Internal.WarpPal.dll:Microsoft.Internal.WarpPal.dll (00007FFEE1B90000), size: 102400 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\Microsoft.Internal.WarpPal.dll'
+C:\Windows\SYSTEM32\textinputframework.dll:textinputframework.dll (00007FFEAE110000), size: 1343488 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\textinputframework.dll', fileVersion: 10.0.26100.7920
+C:\Users\John Rome Ilagan\Saved Games\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill With You_Data\Plugins\x86_64\steam_api64.dll:steam_api64.dll (00007FFE630E0000), size: 1159168 (result: 0), SymType: '-exported-', PDB: 'C:\Users\John Rome Ilagan\Saved Games\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill With You_Data\Plugins\x86_64\steam_api64.dll', fileVersion: 1.0.1.54
+C:\Windows\System32\PSAPI.DLL:PSAPI.DLL (00007FFEEBEA0000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\PSAPI.DLL', fileVersion: 10.0.26100.1
+C:\Users\John Rome Ilagan\Saved Games\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill With You_Data\Plugins\x86_64\phonon.dll:phonon.dll (00007FFE61A40000), size: 20983808 (result: 0), SymType: '-exported-', PDB: 'C:\Users\John Rome Ilagan\Saved Games\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill With You_Data\Plugins\x86_64\phonon.dll', fileVersion: 4.5.3.0
+C:\Users\John Rome Ilagan\Saved Games\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill.With.You.Lo.Fi.Story.v1.0.10\MonoBleedingEdge\EmbedRuntime\MonoPosixHelper.dll:MonoPosixHelper.dll (00007FFE615A0000), size: 626688 (result: 0), SymType: '-exported-', PDB: 'C:\Users\John Rome Ilagan\Saved Games\Chill.With.You.Lo.Fi.Story.v1.0.10\Chill.With.You.Lo.Fi.Story.v1.0.10\MonoBleedingEdge\EmbedRuntime\MonoPosixHelper.dll'
+C:\Windows\SYSTEM32\dbghelp.dll:dbghelp.dll (00007FFEE6D10000), size: 2367488 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\dbghelp.dll', fileVersion: 10.0.26100.5074
+C:\Windows\SYSTEM32\SspiCli.dll:SspiCli.dll (00007FFEE8050000), size: 299008 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\SspiCli.dll', fileVersion: 10.0.26100.7920
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFE6F233FDC)
+0x00007FFE6F233FDC (UnityPlayer) (function-name not available)
+0x00007FFEEB09C396 (USER32) CallWindowProcW
+0x00007FFEEB09BC1C (USER32) SendMessageW
+0x00007FFEEB0D2CE3 (USER32) GetWindowDpiAwarenessContext
+0x00007FFEEC785AB4 (ntdll) KiUserCallbackDispatcher
+0x00007FFEE94E1354 (win32u) NtUserMessageCall
+0x00007FFEEB098E4B (USER32) GetSystemMetrics
+0x00007FFEEB098CE4 (USER32) GetSystemMetrics
+0x00007FFEE33D8D5D (uxtheme) GetImmersiveUserColorSetPreference
+0x00007FFEE341DE56 (uxtheme) Ordinal140
+0x00007FFEE33DADBF (uxtheme) GetImmersiveUserColorSetPreference
+0x00007FFEE33DA651 (uxtheme) GetImmersiveUserColorSetPreference
+0x00007FFEEB09A54A (USER32) IsWindowUnicode
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFE6F234AC8)
+0x00007FFE6F234AC8 (UnityPlayer) (function-name not available)
+0x00007FFEEB09C396 (USER32) CallWindowProcW
+0x00007FFEEB09BC1C (USER32) SendMessageW
+0x00007FFEEB0D2CE3 (USER32) GetWindowDpiAwarenessContext
+0x00007FFEEC785AB4 (ntdll) KiUserCallbackDispatcher
+0x00007FFEE94E1354 (win32u) NtUserMessageCall
+0x00007FFEEB098E4B (USER32) GetSystemMetrics
+0x00007FFEEB098CE4 (USER32) GetSystemMetrics
+0x00007FFEE33D8D5D (uxtheme) GetImmersiveUserColorSetPreference
+0x00007FFEE3416FF9 (uxtheme) SetWindowThemeAttribute
+0x00007FFEE33DADBF (uxtheme) GetImmersiveUserColorSetPreference
+0x00007FFEE33DA651 (uxtheme) GetImmersiveUserColorSetPreference
+0x00007FFEEB09A54A (USER32) IsWindowUnicode
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFE6F234AC8)
+0x00007FFE6F234AC8 (UnityPlayer) (function-name not available)
+0x00007FFEEB09C396 (USER32) CallWindowProcW
+0x00007FFEEB09A7ED (USER32) IsWindowUnicode
+0x00007FFE6F43CEB8 (UnityPlayer) UnityMain
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFE6F235D89)
+0x00007FFE6F235D89 (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FFE6F23910B)
+0x00007FFE6F23910B (UnityPlayer) (function-name not available)
+0x00007FFE6F2393AB (UnityPlayer) UnityMain
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00007FF6AC3311F6)
+0x00007FF6AC3311F6 (Chill With You) (function-name not available)
+0x00007FFEEB28E8D7 (KERNEL32) BaseThreadInitThunk
+0x00007FFEEC6AC48C (ntdll) RtlUserThreadStart
+
+========== END OF STACKTRACE ===========
+
+A crash has been intercepted by the crash handler. For call stack and other details, see the latest crash report generated in:
+ * C:/Users/JOHNRO~1/AppData/Local/Temp/Nestopi/Chill With You/Crashes

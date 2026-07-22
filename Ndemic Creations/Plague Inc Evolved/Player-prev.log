@@ -1,0 +1,321 @@
+Mono path[0] = 'C:/Users/John Rome Ilagan/Saved Games/Plague.Inc.Evolved.v1.18.4.0/Plague.Inc.Evolved.v1.18.4.0/PlagueIncEvolved_Data/Managed'
+Mono config path = 'C:/Users/John Rome Ilagan/Saved Games/Plague.Inc.Evolved.v1.18.4.0/Plague.Inc.Evolved.v1.18.4.0/MonoBleedingEdge/etc'
+Initialize engine version: 2019.4.9f1 (50fe8a171dd9)
+[Subsystems] Discovering subsystems at path C:/Users/John Rome Ilagan/Saved Games/Plague.Inc.Evolved.v1.18.4.0/Plague.Inc.Evolved.v1.18.4.0/PlagueIncEvolved_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 6GB Laptop GPU (ID=0x25ec)
+    Vendor:   
+    VRAM:     6002 MB
+    Driver:   32.0.15.6650
+Begin MonoManager ReloadAssembly
+- Completed reload, in  7.456 seconds
+OnLevelWasLoaded was found on LineManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed 
+(Filename:  Line: 369)
+
+D3D11 device created for Microsoft Media Foundation video decoding.
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+d3d11: swapchain SetFullscreenState failed (887a0022). 
+(Filename:  Line: 570)
+
+<RI> Initialized touch support.
+The referenced script on this Behaviour (Game Object 'ReanimateZombies') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Button_Disease_Box') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Button_World_Box') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Button_Disease') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Button_World') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Button_Context') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Button_Context_Box') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Button_Context') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Button_Context_Box') is missing! 
+(Filename:  Line: 334)
+
+UnloadTime: 1.575800 ms
+/HS/  PlagueExternalMP Plugin Handshake [9292] 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+/HS/  PlagueExternalCoop Plugin Handshake [9292] 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Config file not detected creating default 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Setting resolution: 800x600 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+SET ACTIVE LANGUAGE:  
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Found native resolution: 1920x1080 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Button_Disease_Box') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Button_Disease_Box') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Button_World_Box') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Button_World_Box') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Button_Disease') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Button_Disease') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Button_World') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Button_World') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Button_Context') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Button_Context') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Button_Context_Box') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Button_Context_Box') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Button_Context') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Button_Context') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Button_Context_Box') is missing! 
+(Filename:  Line: 334)
+
+The referenced script on this Behaviour (Game Object 'Button_Context_Box') is missing! 
+(Filename:  Line: 334)
+
+System Info:
+Plague Inc. Evolved Version 1.18.4.0
+OS: Windows 10  (10.0.0) 64bit
+Processor: 13th Gen Intel(R) Core(TM) i5-13450HX Count: 16
+Graphics: 9708/NVIDIA GeForce RTX 3050 6GB Laptop GPU/NVIDIA/Direct3D 11.0 [level 11.1]/6002 Shader: 50
+Memory: system - 16091 graphics - 6002
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+CheckResources () for CountryStateCamera (NoiseAndGrain) should be overwritten. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+CheckResources () for WorldCamera (Vignetting) should be overwritten. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+CheckResources () for DoubleHelixCamera_FrontEnd (Blur) should be overwritten. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+CheckResources () for DiseaseCamera (Blur) should be overwritten. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+CheckResources () for DoubleHelixCamera (Blur) should be overwritten. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+CheckResources () for DoubleHelixCamera_Cure (Blur) should be overwritten. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+CheckResources () for DiseaseCamera_Cure (Blur) should be overwritten. 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "UIRoot/NGUICamera/HUDScreen/HUDPanel/Anchor-BottomLeft/Disease/Button_Disease" 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "UIRoot/NGUICamera/HUDScreen/HUDPanel/Anchor-BottomLeft/Disease/Button_Disease/TooltipDetector" 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "UIRoot/NGUICamera/HUDScreenMP/HUDPanel/Anchor-BottomLeft/Disease/Button_Disease/TooltipDetector" 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "UIRoot/NGUICamera/HUDScreenMP/HUDPanel/Anchor-Top/Coop_Panel/Coop/Content/Center/MP_CO_LabBar/NextLab/Tooltip/Tooltip Child" 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "UIRoot/NGUICamera/HUDScreenMP/HUDPanel/Anchor-Top/Coop_Panel/Coop/Content/Center/MP_CO_LabBar/NextLab/Tooltip/Tooltip Child" 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "UIRoot/NGUICamera/HUDScreen_Cure/HUDPanel/Anchor-BottomLeft/Disease/Button_Disease/TooltipDetector" 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "UIRoot/NGUICamera/HUDScreen_CTW/HUDPanel/Anchor-BottomLeft/Disease/Button_Disease" 
+(Filename:  Line: 0)
+
+BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "UIRoot/NGUICamera/HUDScreen_CTW/HUDPanel/Anchor-BottomLeft/Disease/Button_Disease/TooltipDetector" 
+(Filename:  Line: 0)
+
+InitUIHandlers 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+InitUIHandlers 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+LOADED CLIP: PLAGUE_Intro_720_Q7_Q3 (UnityEngine.VideoClip) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Registering network view:SteamNetwork (INetworkView) 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+*******************************************SteamManager.Initialized:True 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+USER STATS RECEIVED CALLBACK 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+User stats received for :76561198156979472 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+******* STEAM RETURNED A 0 VALUE FOR MP_RATING FOR 76561198156979472 ******** 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+******* LOADED PLAYER STATS BUT ZERO MP_RATING FOR 76561198156979472 ******** 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+CHECKING UNLOCKS FOR STEAM PLAYER: 76561198156979472 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+DiseaseType: BACTERIA val: -1 -> no mega achievement 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+DiseaseType: BACTERIA val: -1 -> no normal cheats 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+DiseaseType: BACTERIA val: -1 -> no brutal cheats 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+All scenarios achievement failed: mst complete artificial_organs 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Cure DiseaseType: BACTERIA val: -1 -> no mega achievement 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Cure DiseaseType: BACTERIA val: -1 -> no normal cheats 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Cure DiseaseType: BACTERIA val: -1 -> no brutal cheats 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+SET ACTIVE LANGUAGE: English 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+SET ACTIVE LANGUAGE: English 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Number imported: 8947 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Data/Languages/en Line: 1 - non-whitespace/newlines outside of tag
+Data/Languages/en Line: 6727 - non-whitespace/newlines outside of tag
+Data/Languages/en Line: 6764 - non-whitespace/newlines outside of tag
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+BEGIN PLAYBACK 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+PLAY VID 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+SKIP! 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+CLOUD: Couldn't read "meta.dat", file does not exist 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+CLOUD: Could not load cloud data - meta.dat 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 1)
+
+Unloading 76104 unused Assets to reduce memory usage. Loaded Objects now: 251363.
+Total: 208.680000 ms (FindLiveObjects: 22.962300 ms CreateObjectMapping: 9.314900 ms MarkObjects: 157.625100 ms  DeleteObjects: 18.777100 ms)
+
+Set Active: local: FPS_60 options FPS_60 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Setting screen resolution for vid: 1920x1080 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Setting up 8 worker threads for Enlighten.
+  Thread -> id: 3fac -> priority: 1 
+  Thread -> id: 1ca4 -> priority: 1 
+  Thread -> id: 34c8 -> priority: 1 
+  Thread -> id: 2b48 -> priority: 1 
+  Thread -> id: 2f3c -> priority: 1 
+  Thread -> id: 1b2c -> priority: 1 
+  Thread -> id: 2d00 -> priority: 1 
+  Thread -> id: 4690 -> priority: 1 
+CNetworkSteam.OnTerminate 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+STEAM API SHUTDOWN 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+

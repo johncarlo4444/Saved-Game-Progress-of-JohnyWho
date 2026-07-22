@@ -1,0 +1,49 @@
+Initialize engine version: 2020.3.32f1 (12f8b0834f07)
+[Subsystems] Discovering subsystems at path C:/Users/John Rome Ilagan/Saved Games/Rebel.Inc.Escalation.v1.4.0.10.Incl.ALL.DLC/Rebel.Inc.Escalation.v1.4.0.10.Incl.ALL.DLC/Rebel Inc. Escalation_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 6GB Laptop GPU (ID=0x25ec)
+    Vendor:   
+    VRAM:     6002 MB
+    Driver:   32.0.15.6650
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 0.688500 ms
+Unloading 7 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.760800 ms
+[0000] Info: Quality level is set to high
+[0000] Info: Task 'Loading CSV data.' took 3 ms
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 21783.
+Total: 23.500600 ms (FindLiveObjects: 7.261800 ms CreateObjectMapping: 1.117600 ms MarkObjects: 15.059700 ms  DeleteObjects: 0.060300 ms)
+
+[0000] Debug: Downloading from https://s.ndemiccreations.com/rebelinc/dynamicnews/latest?build=10&lang=en&platform=windows&os=Windows%2011%20%20(10.0.26100)%2064bit&premium=true
+[0000] Debug: DLC 'Sand & Secrets' is already owned, skipping entry
+[0000] Debug: DLC 'Dollars & Disasters' is already owned, skipping entry
+[0000] Debug: Unable to locate file with extension .rebelincsave
+[0000] Debug: Unable to locate file with extension .rebelincsave
+[0000] Info: Handling Steam launch options...
+[0000] Info: Not launching custom scenario. path: ''
+[0000] Info: Saving game settings
+[0000] Info: Writing data to Cloud backend
+[0000] Info: Saving game settings
+[0000] Info: Writing data to Cloud backend
+[0000] Info: Cannot save now. Another saving process is running. Enqueuing save event.
+[0000] Info: Async saving completed.
+[0000] Info: Executing item from Coroutines jobQueue.
+[0000] Info: Saving game settings
+[0000] Info: Writing data to Cloud backend
+[0000] Info: Async saving completed.
+Setting up 8 worker threads for Enlighten.
+  Thread -> id: 18ec -> priority: 1 
+  Thread -> id: 1dfc -> priority: 1 
+  Thread -> id: 3f3c -> priority: 1 
+  Thread -> id: 6e8 -> priority: 1 
+  Thread -> id: 8c4 -> priority: 1 
+  Thread -> id: f70 -> priority: 1 
+  Thread -> id: 3a3c -> priority: 1 
+  Thread -> id: 2310 -> priority: 1 
+Curl error 42: Callback aborted

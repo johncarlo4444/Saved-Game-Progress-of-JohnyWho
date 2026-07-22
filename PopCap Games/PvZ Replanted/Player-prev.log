@@ -1,0 +1,303 @@
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.0.52f1 (9e4086222921)
+[Subsystems] Discovering subsystems at path C:/Users/John Rome Ilagan/Saved Games/PVZ.Replanted.v1.3.1217.0/PVZ.Replanted.v1.3.1217.0/Replanted_Data/UnitySubsystems
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 6GB Laptop GPU (ID=0x25ec)
+    Vendor:   NVIDIA
+    VRAM:     6002 MB
+    Driver:   32.0.15.8186
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+<RI> Initializing input.
+Using Windows.Gaming.Input
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.309600 ms
+Cannot find matching control scheme for Player2 (all control schemes are already paired to matching devices)
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+UnityEngine.InputSystem.PlayerInput:AssignUserAndDevices()
+UnityEngine.InputSystem.PlayerInput:OnEnable()
+
+RenderGraph is now disabled.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.Rendering.Universal.UniversalRenderPipeline:.ctor(UniversalRenderPipelineAsset)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline()
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline()
+UnityEngine.Rendering.RenderPipelineManager:TryPrepareRenderPipeline(RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal(RenderPipelineAsset, IntPtr, Object)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 45)
+UnloadTime: 1.027900 ms
+Unloading 5119 unused Assets to reduce memory usage. Loaded Objects now: 31990.
+Total: 16.916400 ms (FindLiveObjects: 1.587200 ms CreateObjectMapping: 0.990900 ms MarkObjects: 12.670400 ms  DeleteObjects: 1.667200 ms)
+
+ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+  at System.Collections.Generic.List`1[T].get_Item (System.Int32 index) [0x00000] in <00000000000000000000000000000000>:0 
+  at Reloaded.Services.UserService.SaveProfile (System.Int32 profileIndex) [0x00000] in <00000000000000000000000000000000>:0 
+  at Reloaded.Services.UserService.SetActiveProfile (System.Int32 index) [0x00000] in <00000000000000000000000000000000>:0 
+  at Reloaded.Services.UserService.DeleteProfile () [0x00000] in <00000000000000000000000000000000>:0 
+  at Tekly.Common.Observables.Triggerable`1[T].Emit (T value) [0x00000] in <00000000000000000000000000000000>:0 
+  at Tekly.DataModels.Models.ButtonModel.Activate (System.Int32 playerIndex) [0x00000] in <00000000000000000000000000000000>:0 
+  at Tekly.DataModels.Binders.UnityButtonBinder.OnButtonClicked () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.Events.UnityEvent.Invoke () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.EventSystems.ExecuteEvents.Execute[T] (UnityEngine.GameObject target, UnityEngine.EventSystems.BaseEventData eventData, UnityEngine.EventSystems.ExecuteEvents+EventFunction`1[T1] functor) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.InputSystem.UI.InputSystemUIInputModule.ProcessPointerButton (UnityEngine.InputSystem.UI.PointerModel+ButtonState& button, UnityEngine.EventSystems.PointerEventData eventData) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.InputSystem.UI.InputSystemUIInputModule.ProcessPointer (UnityEngine.InputSystem.UI.PointerModel& state) [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.InputSystem.UI.InputSystemUIInputModule.Process () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.EventSystems.EventSystem.Update () [0x00000] in <00000000000000000000000000000000>:0 
+  at UnityEngine.InputSystem.UI.MultiplayerEventSystem.Update () [0x00000] in <00000000000000000000000000000000>:0 
+Sentry.Unity.Integrations.UnityLogHandlerIntegration:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEngine.EventSystems.ExecuteEvents:Execute(GameObject, BaseEventData, EventFunction`1)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointerButton(ButtonState&, PointerEventData)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:ProcessPointer(PointerModel&)
+UnityEngine.InputSystem.UI.InputSystemUIInputModule:Process()
+UnityEngine.EventSystems.EventSystem:Update()
+UnityEngine.InputSystem.UI.MultiplayerEventSystem:Update()
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 49)
+Tween is started on GameObject that is not active in hierarchy: P_LevelSelect_Carousel_Day. To disable this warning, set 'PrimeTweenConfig.warnTweenOnDisabledTarget = false;'.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+PrimeTween.PrimeTweenManager:addTween_internal(ReusableTween)
+PrimeTween.PrimeTweenManager:Animate(ReusableTween)
+PrimeTween.Tween:animate(Object, TweenSettings`1&, Action`1, Func`2, TweenType)
+PrimeTween.Tween:LocalPositionY(Transform, TweenSettings`1)
+PrimeTween.Tween:LocalPositionY(Transform, Single, Single, Ease, Int32, CycleMode, Single, Single, Boolean)
+UI.Scripts.LevelSelectScreen:_tweenCarousel(LevelSelectCarousel, Single, Single, Ease)
+UI.Scripts.LevelSelectScreen:HideCarousel(LevelSelectCarouselGroup)
+UI.Scripts.LevelSelectScreen:OnLeaveLevelSelect()
+
+Tween is started on GameObject that is not active in hierarchy: P_LevelSelect_Carousel_Night. To disable this warning, set 'PrimeTweenConfig.warnTweenOnDisabledTarget = false;'.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+PrimeTween.PrimeTweenManager:addTween_internal(ReusableTween)
+PrimeTween.PrimeTweenManager:Animate(ReusableTween)
+PrimeTween.Tween:animate(Object, TweenSettings`1&, Action`1, Func`2, TweenType)
+PrimeTween.Tween:LocalPositionY(Transform, TweenSettings`1)
+PrimeTween.Tween:LocalPositionY(Transform, Single, Single, Ease, Int32, CycleMode, Single, Single, Boolean)
+UI.Scripts.LevelSelectScreen:_tweenCarousel(LevelSelectCarousel, Single, Single, Ease)
+UI.Scripts.LevelSelectScreen:HideCarousel(LevelSelectCarouselGroup)
+UI.Scripts.LevelSelectScreen:OnLeaveLevelSelect()
+
+Tween is started on GameObject that is not active in hierarchy: P_LevelSelect_Carousel_Pool. To disable this warning, set 'PrimeTweenConfig.warnTweenOnDisabledTarget = false;'.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+PrimeTween.PrimeTweenManager:addTween_internal(ReusableTween)
+PrimeTween.PrimeTweenManager:Animate(ReusableTween)
+PrimeTween.Tween:animate(Object, TweenSettings`1&, Action`1, Func`2, TweenType)
+PrimeTween.Tween:LocalPositionY(Transform, TweenSettings`1)
+PrimeTween.Tween:LocalPositionY(Transform, Single, Single, Ease, Int32, CycleMode, Single, Single, Boolean)
+UI.Scripts.LevelSelectScreen:_tweenCarousel(LevelSelectCarousel, Single, Single, Ease)
+UI.Scripts.LevelSelectScreen:HideCarousel(LevelSelectCarouselGroup)
+UI.Scripts.LevelSelectScreen:OnLeaveLevelSelect()
+
+Tween is started on GameObject that is not active in hierarchy: P_LevelSelect_Carousel_Fog. To disable this warning, set 'PrimeTweenConfig.warnTweenOnDisabledTarget = false;'.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+PrimeTween.PrimeTweenManager:addTween_internal(ReusableTween)
+PrimeTween.PrimeTweenManager:Animate(ReusableTween)
+PrimeTween.Tween:animate(Object, TweenSettings`1&, Action`1, Func`2, TweenType)
+PrimeTween.Tween:LocalPositionY(Transform, TweenSettings`1)
+PrimeTween.Tween:LocalPositionY(Transform, Single, Single, Ease, Int32, CycleMode, Single, Single, Boolean)
+UI.Scripts.LevelSelectScreen:_tweenCarousel(LevelSelectCarousel, Single, Single, Ease)
+UI.Scripts.LevelSelectScreen:HideCarousel(LevelSelectCarouselGroup)
+UI.Scripts.LevelSelectScreen:OnLeaveLevelSelect()
+
+Tween is started on GameObject that is not active in hierarchy: P_LevelSelect_Carousel_Roof. To disable this warning, set 'PrimeTweenConfig.warnTweenOnDisabledTarget = false;'.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+PrimeTween.PrimeTweenManager:addTween_internal(ReusableTween)
+PrimeTween.PrimeTweenManager:Animate(ReusableTween)
+PrimeTween.Tween:animate(Object, TweenSettings`1&, Action`1, Func`2, TweenType)
+PrimeTween.Tween:LocalPositionY(Transform, TweenSettings`1)
+PrimeTween.Tween:LocalPositionY(Transform, Single, Single, Ease, Int32, CycleMode, Single, Single, Boolean)
+UI.Scripts.LevelSelectScreen:_tweenCarousel(LevelSelectCarousel, Single, Single, Ease)
+UI.Scripts.LevelSelectScreen:HideCarousel(LevelSelectCarouselGroup)
+UI.Scripts.LevelSelectScreen:OnLeaveLevelSelect()
+
+Tween is started on GameObject that is not active in hierarchy: P_LevelSelect_Carousel_CloudyDay. To disable this warning, set 'PrimeTweenConfig.warnTweenOnDisabledTarget = false;'.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+PrimeTween.PrimeTweenManager:addTween_internal(ReusableTween)
+PrimeTween.PrimeTweenManager:Animate(ReusableTween)
+PrimeTween.Tween:animate(Object, TweenSettings`1&, Action`1, Func`2, TweenType)
+PrimeTween.Tween:LocalPositionY(Transform, TweenSettings`1)
+PrimeTween.Tween:LocalPositionY(Transform, Single, Single, Ease, Int32, CycleMode, Single, Single, Boolean)
+UI.Scripts.LevelSelectScreen:_tweenCarousel(LevelSelectCarousel, Single, Single, Ease)
+UI.Scripts.LevelSelectScreen:HideCarousel(LevelSelectCarouselGroup)
+UI.Scripts.LevelSelectScreen:OnLeaveLevelSelect()
+
+Tween is started on GameObject that is not active in hierarchy: P_LevelSelect_Carousel_LimboContent. To disable this warning, set 'PrimeTweenConfig.warnTweenOnDisabledTarget = false;'.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+PrimeTween.PrimeTweenManager:addTween_internal(ReusableTween)
+PrimeTween.PrimeTweenManager:Animate(ReusableTween)
+PrimeTween.Tween:animate(Object, TweenSettings`1&, Action`1, Func`2, TweenType)
+PrimeTween.Tween:LocalPositionY(Transform, TweenSettings`1)
+PrimeTween.Tween:LocalPositionY(Transform, Single, Single, Ease, Int32, CycleMode, Single, Single, Boolean)
+UI.Scripts.LevelSelectScreen:_tweenCarousel(LevelSelectCarousel, Single, Single, Ease)
+UI.Scripts.LevelSelectScreen:HideCarousel(LevelSelectCarouselGroup)
+UI.Scripts.LevelSelectScreen:OnLeaveLevelSelect()
+
+UnloadTime: 37.967400 ms
+Failed to find localization ID: 
+
+Tekly.Common.Observables.ObservableValue`1:Subscribe(IValueObserver`1)
+Tekly.DataModels.Binders.StringBinder:Bind(BinderContainer)
+Tekly.DataModels.Binders.BinderContainer:Bind()
+ 
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogFormat(LogType, LogOption, Object, String, Object[])
+Tekly.Logging.LogDestinations.UnityLogDestination:LogMessage(TkLogMessage, Object, LogSource)
+Tekly.Logging.LogDestinations.UnityLogDestination:LogMessage(TkLogMessage, LogSource)
+Tekly.Logging.TkLogger:LogToDestination(ILogDestination, TkLogMessage, LogSource)
+Tekly.Logging.TkLogger:Warning(String, ValueTuple`2)
+Tekly.Localizations.Localizer:Localize(String)
+Tekly.DataModels.Binders.StringBinder:BindString(String)
+Tekly.Common.Observables.ObservableValue`1:Subscribe(IValueObserver`1)
+Tekly.DataModels.Binders.StringBinder:Bind(BinderContainer)
+Tekly.DataModels.Binders.BinderContainer:Bind()
+
+Unloading 593 unused Assets to reduce memory usage. Loaded Objects now: 22327.
+Total: 14.488300 ms (FindLiveObjects: 1.256900 ms CreateObjectMapping: 0.927500 ms MarkObjects: 11.561400 ms  DeleteObjects: 0.742000 ms)
+
+Tween's 'endValue' equals to the current animated value: (0.98, 0.98, 0.00, 1.00), tween: MessageText / UIColorGraphic / duration 0.5 / id 129.
+To disable this warning, set 'PrimeTweenConfig.warnEndValueEqualsCurrent = false;'.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+PrimeTween.ReusableTween:ReportOnValueChange(Single)
+PrimeTween.ReusableTween:setElapsedTimeTotal(Single, Int32&)
+PrimeTween.ReusableTween:SetElapsedTimeTotal(Single, Boolean)
+PrimeTween.ReusableTween:updateAndCheckIfRunning(Single)
+PrimeTween.PrimeTweenManager:update(List`1, Single, Single, Int32&)
+PrimeTween.PrimeTweenManager:Update()
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 50)
+UnloadTime: 4.605300 ms
+Unloading 303 unused Assets to reduce memory usage. Loaded Objects now: 34421.
+Total: 21.629100 ms (FindLiveObjects: 1.568600 ms CreateObjectMapping: 0.792300 ms MarkObjects: 18.590000 ms  DeleteObjects: 0.677800 ms)
+
+Failed to find localization ID: John's House
+
+Tekly.Common.Observables.ObservableValue`1:Subscribe(IValueObserver`1)
+Tekly.DataModels.Binders.StringBinder:Bind(BinderContainer)
+Tekly.DataModels.Binders.BinderContainer:Bind()
+ 
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogFormat(LogType, LogOption, Object, String, Object[])
+Tekly.Logging.LogDestinations.UnityLogDestination:LogMessage(TkLogMessage, Object, LogSource)
+Tekly.Logging.LogDestinations.UnityLogDestination:LogMessage(TkLogMessage, LogSource)
+Tekly.Logging.TkLogger:LogToDestination(ILogDestination, TkLogMessage, LogSource)
+Tekly.Logging.TkLogger:Warning(String, ValueTuple`2)
+Tekly.Localizations.Localizer:Localize(String)
+Tekly.DataModels.Binders.StringBinder:BindString(String)
+Tekly.Common.Observables.ObservableValue`1:Subscribe(IValueObserver`1)
+Tekly.DataModels.Binders.StringBinder:Bind(BinderContainer)
+Tekly.DataModels.Binders.BinderContainer:Bind()
+
+Failed to find localization ID: John's House
+
+Tekly.Common.Observables.ObservableValue`1:Subscribe(IValueObserver`1)
+Tekly.DataModels.Binders.StringBinder:Bind(BinderContainer)
+Tekly.DataModels.Binders.BinderContainer:Bind()
+Tekly.Common.Presentables.Presentable:Show()
+Source.Controllers.MessageWidgetController:Update()
+ 
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogFormat(LogType, LogOption, Object, String, Object[])
+Tekly.Logging.LogDestinations.UnityLogDestination:LogMessage(TkLogMessage, Object, LogSource)
+Tekly.Logging.LogDestinations.UnityLogDestination:LogMessage(TkLogMessage, LogSource)
+Tekly.Logging.TkLogger:LogToDestination(ILogDestination, TkLogMessage, LogSource)
+Tekly.Logging.TkLogger:Warning(String, ValueTuple`2)
+Tekly.Localizations.Localizer:Localize(String)
+Tekly.DataModels.Binders.StringBinder:BindString(String)
+Tekly.Common.Observables.ObservableValue`1:Subscribe(IValueObserver`1)
+Tekly.DataModels.Binders.StringBinder:Bind(BinderContainer)
+Tekly.DataModels.Binders.BinderContainer:Bind()
+Tekly.Common.Presentables.Presentable:Show()
+Source.Controllers.MessageWidgetController:Update()
+
+Failed to find localization ID: 
+
+Tekly.Common.Observables.ObservableValue`1:Subscribe(IValueObserver`1)
+Tekly.DataModels.Binders.StringBinder:Bind(BinderContainer)
+Tekly.DataModels.Binders.BinderContainer:Bind()
+ 
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Debug:LogFormat(LogType, LogOption, Object, String, Object[])
+Tekly.Logging.LogDestinations.UnityLogDestination:LogMessage(TkLogMessage, Object, LogSource)
+Tekly.Logging.LogDestinations.UnityLogDestination:LogMessage(TkLogMessage, LogSource)
+Tekly.Logging.TkLogger:LogToDestination(ILogDestination, TkLogMessage, LogSource)
+Tekly.Logging.TkLogger:Warning(String, ValueTuple`2)
+Tekly.Localizations.Localizer:Localize(String)
+Tekly.DataModels.Binders.StringBinder:BindString(String)
+Tekly.Common.Observables.ObservableValue`1:Subscribe(IValueObserver`1)
+Tekly.DataModels.Binders.StringBinder:Bind(BinderContainer)
+Tekly.DataModels.Binders.BinderContainer:Bind()
+
+Tween's 'endValue' equals to the current animated value: (0.00, 0.00, 0.00, 0.00), tween: P_RIPModeVignette / UIAlphaGraphic / duration 0.3 / id 251.
+To disable this warning, set 'PrimeTweenConfig.warnEndValueEqualsCurrent = false;'.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+PrimeTween.ReusableTween:ReportOnValueChange(Single)
+PrimeTween.ReusableTween:setElapsedTimeTotal(Single, Int32&)
+PrimeTween.ReusableTween:SetElapsedTimeTotal(Single, Boolean)
+PrimeTween.ReusableTween:updateAndCheckIfRunning(Single)
+PrimeTween.PrimeTweenManager:update(List`1, Single, Single, Int32&)
+PrimeTween.PrimeTweenManager:Update()
+
+Tween's 'endValue' equals to the current animated value: (0.00, 0.00, 0.00, 0.00), tween: P_RIPModeVignette / UIAlphaGraphic / duration 0.3 / id 252.
+To disable this warning, set 'PrimeTweenConfig.warnEndValueEqualsCurrent = false;'.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, LogOption, String, Object)
+UnityEngine.Logger:Log(LogType, Object, Object)
+UnityEngine.Debug:LogWarning(Object, Object)
+PrimeTween.ReusableTween:ReportOnValueChange(Single)
+PrimeTween.ReusableTween:setElapsedTimeTotal(Single, Int32&)
+PrimeTween.ReusableTween:SetElapsedTimeTotal(Single, Boolean)
+PrimeTween.ReusableTween:updateAndCheckIfRunning(Single)
+PrimeTween.PrimeTweenManager:update(List`1, Single, Single, Int32&)
+PrimeTween.PrimeTweenManager:Update()
+
+Releasing render texture that is set as Camera.targetTexture!
+Releasing render texture that is set as Camera.targetTexture!
+Releasing render texture that is set as Camera.targetTexture!
+Releasing render texture that is set as Camera.targetTexture!
+Releasing render texture that is set as Camera.targetTexture!
+Releasing render texture that is set as Camera.targetTexture!
+Releasing render texture that is set as Camera.targetTexture!
+Releasing render texture that is set as Camera.targetTexture!
+[Physics::Module] Cleanup current backned.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.
+Internal: There are remaining Allocations on the JobTempAlloc. This is a leak, and will impact performance
+To Debug, run app with -diag-job-temp-memory-leak-validation cmd line argument. This will output the callstacks of the leaked allocations.

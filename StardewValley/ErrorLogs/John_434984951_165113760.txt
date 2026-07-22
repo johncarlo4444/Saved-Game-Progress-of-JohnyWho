@@ -1,0 +1,34 @@
+Message: Index was outside the bounds of the array.
+InnerException: 
+Stack Trace:    at System.Array.Clear(Array array, Int32 index, Int32 length)
+   at StardewValley.GameLocation._TestCornersTiles(Vector2 top_right, Vector2 top_left, Vector2 bottom_right, Vector2 bottom_left, Vector2 top_mid, Vector2 bottom_mid, Nullable`1 player_top_right, Nullable`1 player_top_left, Nullable`1 player_bottom_right, Nullable`1 player_bottom_left, Nullable`1 player_top_mid, Nullable`1 player_bottom_mid, Boolean bigger_than_tile, Func`2 action) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\Locations\GameLocation.cs:line 2511
+   at StardewValley.GameLocation.isCollidingPosition(Rectangle position, Rectangle viewport, Boolean isFarmer, Int32 damagesFarmer, Boolean glider, Character character, Boolean pathfinding, Boolean projectile, Boolean ignoreCharacterRequirement, Boolean skipCollisionEffects) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\Locations\GameLocation.cs:line 2842
+   at StardewValley.GameLocation.isCollidingPosition(Rectangle position, Rectangle viewport, Boolean isFarmer, Int32 damagesFarmer, Boolean glider, Character character) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\Locations\GameLocation.cs:line 2469
+   at StardewValley.Character.MovePosition(GameTime time, Rectangle viewport, GameLocation currentLocation) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\Character.cs:line 643
+   at StardewValley.Pathfinding.PathFindController.moveCharacter(GameTime time) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\Pathfinding\PathFindController.cs:line 361
+   at StardewValley.Pathfinding.PathFindController.update(GameTime time) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\Pathfinding\PathFindController.cs:line 152
+   at StardewValley.Character.update(GameTime time, GameLocation location, Int64 id, Boolean move) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\Character.cs:line 1373
+   at StardewValley.Character.update(GameTime time, GameLocation location) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\Character.cs:line 1311
+   at StardewValley.NPC.update(GameTime time, GameLocation location) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\NPC.cs:line 3624
+   at StardewValley.GameLocation.updateCharacters(GameTime time) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\Locations\GameLocation.cs:line 4617
+   at StardewValley.GameLocation.updateEvenIfFarmerIsntHere(GameTime time, Boolean ignoreWasUpdatedFlush) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\Locations\GameLocation.cs:line 4654
+   at StardewValley.Game1._UpdateLocation(GameLocation location, GameTime time) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\Game1.cs:line 6169
+   at StardewValley.Game1.<>c__DisplayClass735_0.<UpdateLocations>b__0(GameLocation location) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\Game1.cs:line 6126
+   at StardewValley.Utility.ForEachLocation(Func`2 action, Boolean includeInteriors, Boolean includeGenerated) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\Utility.cs:line 342
+   at StardewValley.Game1.UpdateLocations(GameTime time) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\Game1.cs:line 6124
+   at StardewValley.Game1._update(GameTime gameTime) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\Game1.cs:line 4326
+   at StardewValley.Game1.Update(GameTime gameTime) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\Game1.cs:line 3454
+   at StardewValley.GameRunner.Update(GameTime gameTime) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\LocalMultiplayer.cs:line 927
+   at Microsoft.Xna.Framework.Game.DoUpdate(GameTime gameTime) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\MonoGame.Desktop\MonoGame.Framework\Game.cs:line 917
+   at Microsoft.Xna.Framework.Game.Tick() in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\MonoGame.Desktop\MonoGame.Framework\Game.cs:line 620
+   at Microsoft.Xna.Framework.SdlGamePlatform.RunLoop() in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\MonoGame.Desktop\MonoGame.Framework\Platform\SDL\SDLGamePlatform.cs:line 90
+   at Microsoft.Xna.Framework.Game.Run(GameRunBehavior runBehavior) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\MonoGame.Desktop\MonoGame.Framework\Game.cs:line 481
+   at StardewValley.Program.Main(String[] args) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\Program.cs:line 219
+
+Game Version: 1.6.15 build 24356
+SDK Helper: GalaxyHelper
+Game Language: en
+GPU: NVIDIA GeForce RTX 3050 6GB Laptop GPU/PCIe/SSE2
+OS: Win32NT Microsoft Windows NT 10.0.26200.0
+In-game Date: Summer 8 Y2 Time of Day: 2010
+Game Location: FarmHouse

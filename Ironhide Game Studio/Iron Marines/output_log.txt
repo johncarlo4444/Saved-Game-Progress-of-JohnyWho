@@ -1,0 +1,431 @@
+Initialize engine version: 2017.4.26f1 (3b349d10f010)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 6GB Laptop GPU (ID=0x25ec)
+    Vendor:   NVIDIA
+    VRAM:     3072 MB
+    Driver:   32.0.15.8186
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.063 seconds
+OnLevelWasLoaded was found on TextureMemoryDebugger
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename:  Line: 375)
+
+OnLevelWasLoaded was found on EnemyPeripheralBlockerCache
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename:  Line: 375)
+
+OnLevelWasLoaded was found on LeanTween
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename:  Line: 375)
+
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Pass 'FLIP_RGBARECT_TO_RGBA' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/VideoDecodeOSX' - Setting to default shader.
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.747400 ms
+LoaderScene: Started
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+LoaderScene: started loading asset bundles
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Configuring base URL: file://C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/StreamingAssets/Windows/
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Loader scene completed, moving to SplashScene
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 5)
+UnloadTime: 0.620400 ms
+[Crashlytics] Did not register exception handlers: Crashlytics SDK was not initialized
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 3872.
+Total: 0.963300 ms (FindLiveObjects: 0.415200 ms CreateObjectMapping: 0.111000 ms MarkObjects: 0.418800 ms  DeleteObjects: 0.017500 ms)
+
+GameAnalytics: Unsupported platform (events will not be sent in editor; or missing platform in settings): WindowsPlayer
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Finished loading localizable strings - Loaded 1875 entries in 0.08173466s
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 145)
+UnloadTime: 0.724500 ms
+
+Unloading 3781 unused Assets to reduce memory usage. Loaded Objects now: 9249.
+Total: 6.437300 ms (FindLiveObjects: 0.476500 ms CreateObjectMapping: 0.228500 ms MarkObjects: 3.039400 ms  DeleteObjects: 2.691900 ms)
+
+No Playlist Controllers exist in the Scene. Music will not play.
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Sub-emitters must be children of the system that spawns them
+ 
+(Filename:  Line: 2964)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 145)
+
+Unloading 295 unused Assets to reduce memory usage. Loaded Objects now: 8910.
+Total: 7.377000 ms (FindLiveObjects: 1.163200 ms CreateObjectMapping: 0.391300 ms MarkObjects: 5.555600 ms  DeleteObjects: 0.266000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 145)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 8913.
+Total: 7.005900 ms (FindLiveObjects: 0.824100 ms CreateObjectMapping: 0.348700 ms MarkObjects: 5.816700 ms  DeleteObjects: 0.015500 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 145)
+UnloadTime: 12.825900 ms
+
+Unloading 384 unused Assets to reduce memory usage. Loaded Objects now: 4683.
+Total: 7.314500 ms (FindLiveObjects: 1.476700 ms CreateObjectMapping: 0.352500 ms MarkObjects: 3.450800 ms  DeleteObjects: 2.033400 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 145)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 4683.
+Total: 4.721300 ms (FindLiveObjects: 0.806800 ms CreateObjectMapping: 0.251500 ms MarkObjects: 3.648800 ms  DeleteObjects: 0.012900 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 145)
+Loading simple scene
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 4663.
+Total: 3.344500 ms (FindLiveObjects: 0.400400 ms CreateObjectMapping: 0.159200 ms MarkObjects: 2.744700 ms  DeleteObjects: 0.039500 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 145)
+UnloadTime: 0.864300 ms
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/FirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/.\FirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/FirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/libFirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/.\libFirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/libFirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/FirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/.\FirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/FirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/libFirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/.\libFirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/libFirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/FirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/.\FirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/FirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/libFirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/.\libFirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/libFirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/FirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/.\FirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/FirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/libFirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/.\libFirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/libFirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/FirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/.\FirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/FirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/libFirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/.\libFirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/libFirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/FirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/.\FirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/FirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/libFirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/.\libFirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/libFirebaseCppApp-5.2.1
+
+Unloading 2422 unused Assets to reduce memory usage. Loaded Objects now: 41880.
+Total: 31.731200 ms (FindLiveObjects: 2.550500 ms CreateObjectMapping: 1.186900 ms MarkObjects: 27.007800 ms  DeleteObjects: 0.985500 ms)
+
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/FirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/.\FirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/FirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/libFirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/.\libFirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/libFirebaseCppApp-5.2.1
+Failed to notify event [BriefingOpenEvent:Briefing, BriefingViewScript, stages_campaign_02, 1]: An exception was thrown by the type initializer for Firebase.Analytics.FirebaseAnalytics
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Warning/GameAnalytics: Could not add design event: Datastore not initialized
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 145)
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 43504.
+Total: 43.372300 ms (FindLiveObjects: 3.261800 ms CreateObjectMapping: 1.005800 ms MarkObjects: 38.997800 ms  DeleteObjects: 0.106100 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 145)
+UnloadTime: 114.842800 ms
+
+Unloading 7787 unused Assets to reduce memory usage. Loaded Objects now: 5715.
+Total: 8.739000 ms (FindLiveObjects: 0.492400 ms CreateObjectMapping: 0.252300 ms MarkObjects: 2.259600 ms  DeleteObjects: 5.734000 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 145)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 5715.
+Total: 3.087700 ms (FindLiveObjects: 0.343800 ms CreateObjectMapping: 0.118200 ms MarkObjects: 2.620000 ms  DeleteObjects: 0.005500 ms)
+
+Unloading 0 Unused Serialized files (Serialized files now loaded: 145)
+
+Unloading 131 unused Assets to reduce memory usage. Loaded Objects now: 4628.
+Total: 2.590200 ms (FindLiveObjects: 0.229300 ms CreateObjectMapping: 0.084900 ms MarkObjects: 1.386600 ms  DeleteObjects: 0.889000 ms)
+
+The referenced script on this Behaviour (Game Object 'MissionOutcomeCanvas') is missing!
+ 
+(Filename:  Line: 1758)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 145)
+UnloadTime: 1.195600 ms
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/FirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/.\FirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/FirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/libFirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/.\libFirebaseCppApp-5.2.1
+Fallback handler could not load library C:/Users/John Rome Ilagan/Saved Games/Iron Hide Collection/Iron.Marines/Iron Marines/ironmarines_Data/Mono/libFirebaseCppApp-5.2.1
+Failed to notify event IronMarines.PlayerEvents.IngameEvent: An exception was thrown by the type initializer for Firebase.Analytics.FirebaseAnalytics
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Warning/GameAnalytics: Could not add design event: Datastore not initialized
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Warning/GameAnalytics: Could not add design event: Datastore not initialized
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Warning/GameAnalytics: Could not add design event: Datastore not initialized
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Warning/GameAnalytics: Could not add design event: Datastore not initialized
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Warning/GameAnalytics: Could not add design event: Datastore not initialized
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Warning/GameAnalytics: Could not add design event: Datastore not initialized
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Warning/GameAnalytics: Could not add progression event: Datastore not initialized
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Warning/GameAnalytics: Could not add design event: Datastore not initialized
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+The referenced script on this Behaviour (Game Object '<null>') is missing!
+ 
+(Filename:  Line: 1758)
+
+The referenced script on this Behaviour (Game Object 'MissionOutcomeCanvas') is missing!
+ 
+(Filename:  Line: 1758)
+
+The referenced script on this Behaviour (Game Object 'MissionOutcomeCanvas') is missing!
+ 
+(Filename:  Line: 1758)
+
+[Crashlytics] Would set key-value if running on a physical device: stage:stages_campaign_02
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[Crashlytics] Would set key-value if running on a physical device: hero:hero_power_girl
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+[Crashlytics] Would set key-value if running on a physical device: powers:power_proximity_bollard, power_mortarbros, power_orbital_strike, 
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+The referenced script on this Behaviour (Game Object 'TutorialPauseNotificationCanvas') is missing!
+ 
+(Filename:  Line: 1758)
+
+The referenced script on this Behaviour (Game Object 'UnitsPauseNotificationCanvas') is missing!
+ 
+(Filename:  Line: 1758)
+
+C:\Users\John Rome Ilagan\Saved Games\Iron Hide Collection\Iron.Marines\Iron Marines\Assets\Resources\Levels\Packs\Stage2.xml
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+C:\Users\John Rome Ilagan\Saved Games\Iron Hide Collection\Iron.Marines\Iron Marines\Assets\Resources\Levels\Packs\Stage2_special.xml
+ 
+(Filename: C:\buildslave\unity\build\artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Crash!!!
+SymInit: Symbol-SearchPath: '.;C:\Users\John Rome Ilagan\Saved Games\Iron Hide Collection\Iron.Marines\Iron Marines;C:\Users\John Rome Ilagan\Saved Games\Iron Hide Collection\Iron.Marines\Iron Marines;C:\Windows;C:\Windows\system32;SRV*C:\websymbols*http://msdl.microsoft.com/download/symbols;', symOptions: 530, UserName: 'John Rome Ilagan'
+OS-Version: 10.0.26100 () 0x300-0x1
+C:\Users\John Rome Ilagan\Saved Games\Iron Hide Collection\Iron.Marines\Iron Marines\ironmarines.exe:ironmarines.exe (00BC0000), size: 659456 (result: 0), SymType: '-exported-', PDB: 'C:\Users\John Rome Ilagan\Saved Games\Iron Hide Collection\Iron.Marines\Iron Marines\ironmarines.exe', fileVersion: 2017.4.26.13469
+C:\Windows\SYSTEM32\ntdll.dll:ntdll.dll (773A0000), size: 1830912 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\ntdll.dll', fileVersion: 10.0.26100.7623
+C:\Windows\System32\KERNEL32.DLL:KERNEL32.DLL (76620000), size: 983040 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\KERNEL32.DLL', fileVersion: 10.0.26100.7623
+C:\Windows\System32\KERNELBASE.dll:KERNELBASE.dll (760C0000), size: 2912256 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\KERNELBASE.dll', fileVersion: 10.0.26100.7623
+C:\Windows\System32\ADVAPI32.dll:ADVAPI32.dll (74F20000), size: 520192 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\ADVAPI32.dll', fileVersion: 10.0.26100.7309
+C:\Windows\System32\msvcrt.dll:msvcrt.dll (74FB0000), size: 815104 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\msvcrt.dll', fileVersion: 7.0.26100.7623
+C:\Windows\System32\sechost.dll:sechost.dll (76470000), size: 536576 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\sechost.dll', fileVersion: 10.0.26100.7623
+C:\Users\John Rome Ilagan\Saved Games\Iron Hide Collection\Iron.Marines\Iron Marines\UnityPlayer.dll:UnityPlayer.dll (68430000), size: 17756160 (result: 0), SymType: '-exported-', PDB: 'C:\Users\John Rome Ilagan\Saved Games\Iron Hide Collection\Iron.Marines\Iron Marines\UnityPlayer.dll', fileVersion: 2017.4.26.13469
+C:\Windows\System32\RPCRT4.dll:RPCRT4.dll (752C0000), size: 770048 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\RPCRT4.dll', fileVersion: 10.0.26100.7623
+C:\Windows\System32\USER32.dll:USER32.dll (771B0000), size: 1880064 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\USER32.dll', fileVersion: 10.0.26100.7623
+C:\Windows\System32\win32u.dll:win32u.dll (76A30000), size: 106496 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\win32u.dll', fileVersion: 10.0.26100.7623
+C:\Windows\System32\GDI32.dll:GDI32.dll (75080000), size: 143360 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\GDI32.dll', fileVersion: 10.0.26100.7309
+C:\Windows\SYSTEM32\HID.DLL:HID.DLL (6BE20000), size: 45056 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\HID.DLL', fileVersion: 10.0.26100.1
+C:\Windows\SYSTEM32\CRYPTBASE.DLL:CRYPTBASE.DLL (73B30000), size: 40960 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\CRYPTBASE.DLL', fileVersion: 10.0.26100.7623
+C:\Windows\System32\gdi32full.dll:gdi32full.dll (76F70000), size: 962560 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\gdi32full.dll', fileVersion: 10.0.26100.7623
+C:\Windows\System32\msvcp_win.dll:msvcp_win.dll (75630000), size: 544768 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\msvcp_win.dll', fileVersion: 10.0.26100.7623
+C:\Windows\System32\ucrtbase.dll:ucrtbase.dll (77090000), size: 1114112 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\ucrtbase.dll', fileVersion: 10.0.26100.7623
+C:\Windows\System32\ole32.dll:ole32.dll (75F60000), size: 1388544 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\ole32.dll', fileVersion: 10.0.26100.7623
+C:\Windows\System32\combase.dll:combase.dll (76790000), size: 2699264 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\combase.dll', fileVersion: 10.0.26100.7623
+C:\Windows\System32\SHLWAPI.dll:SHLWAPI.dll (75840000), size: 335872 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\SHLWAPI.dll', fileVersion: 10.0.26100.7623
+C:\Windows\SYSTEM32\VERSION.dll:VERSION.dll (74460000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\VERSION.dll', fileVersion: 10.0.26100.1
+C:\Windows\System32\SETUPAPI.dll:SETUPAPI.dll (76B00000), size: 4534272 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\SETUPAPI.dll', fileVersion: 10.0.26100.7309
+C:\Windows\System32\SHELL32.dll:SHELL32.dll (758A0000), size: 6475776 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\SHELL32.dll', fileVersion: 10.0.26100.7623
+C:\Windows\System32\wintypes.dll:wintypes.dll (75530000), size: 1019904 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\wintypes.dll', fileVersion: 10.0.26100.7623
+C:\Windows\System32\WS2_32.dll:WS2_32.dll (75EF0000), size: 397312 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\WS2_32.dll', fileVersion: 10.0.26100.7623
+C:\Windows\System32\OLEAUT32.dll:OLEAUT32.dll (76A50000), size: 647168 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\OLEAUT32.dll', fileVersion: 10.0.26100.7309
+C:\Windows\System32\IMM32.dll:IMM32.dll (77060000), size: 151552 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\IMM32.dll', fileVersion: 10.0.26100.7309
+C:\Windows\SYSTEM32\WINMM.dll:WINMM.dll (70900000), size: 208896 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WINMM.dll', fileVersion: 10.0.26100.7309
+C:\Windows\SYSTEM32\OPENGL32.dll:OPENGL32.dll (6A990000), size: 942080 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\OPENGL32.dll', fileVersion: 10.0.26100.7309
+C:\Windows\SYSTEM32\IPHLPAPI.DLL:IPHLPAPI.DLL (747D0000), size: 159744 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\IPHLPAPI.DLL', fileVersion: 10.0.26100.7309
+C:\Windows\SYSTEM32\WINHTTP.dll:WINHTTP.dll (6F510000), size: 925696 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WINHTTP.dll', fileVersion: 10.0.26100.7462
+C:\Windows\SYSTEM32\DNSAPI.dll:DNSAPI.dll (707D0000), size: 925696 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\DNSAPI.dll', fileVersion: 10.0.26100.7309
+C:\Windows\SYSTEM32\GLU32.dll:GLU32.dll (6A940000), size: 270336 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\GLU32.dll', fileVersion: 10.0.26100.1
+C:\Windows\SYSTEM32\dxcore.dll:dxcore.dll (6A900000), size: 225280 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\dxcore.dll', fileVersion: 10.0.26100.7309
+C:\Windows\System32\NSI.dll:NSI.dll (76F60000), size: 28672 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\NSI.dll', fileVersion: 10.0.26100.7623
+C:\Windows\SYSTEM32\kernel.appcore.dll:kernel.appcore.dll (74470000), size: 86016 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\kernel.appcore.dll', fileVersion: 10.0.26100.7309
+C:\Windows\System32\bcryptPrimitives.dll:bcryptPrimitives.dll (75240000), size: 475136 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\bcryptPrimitives.dll', fileVersion: 10.0.26100.7623
+C:\Windows\system32\uxtheme.dll:uxtheme.dll (730F0000), size: 528384 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\uxtheme.dll', fileVersion: 10.0.26100.7309
+C:\ProgramData\A-Volute\A-Volute.Nahimic\Modules\Scheduled\AudioDevProps2.dll:AudioDevProps2.dll (69970000), size: 1028096 (result: 0), SymType: '-exported-', PDB: 'C:\ProgramData\A-Volute\A-Volute.Nahimic\Modules\Scheduled\AudioDevProps2.dll', fileVersion: 2.6.30.0
+C:\Windows\System32\shcore.dll:shcore.dll (76390000), size: 856064 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\shcore.dll', fileVersion: 10.0.26100.7623
+C:\Windows\SYSTEM32\windows.storage.dll:windows.storage.dll (73440000), size: 7204864 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\windows.storage.dll', fileVersion: 10.0.26100.7623
+C:\Windows\SYSTEM32\profapi.dll:profapi.dll (73180000), size: 118784 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\SYSTEM32\profapi.dll', fileVersion: 10.0.26100.7309
+C:\Users\John Rome Ilagan\Saved Games\Iron Hide Collection\Iron.Marines\Iron Marines\ironmarines_Data\Mono\EmbedRuntime\mono.dll:mono.dll (10000000), size: 3764224 (result: 0), SymType: '-exported-', PDB: 'C:\Users\John Rome Ilagan\Saved Games\Iron Hide Collection\Iron.Marines\Iron Marines\ironmarines_Data\Mono\EmbedRuntime\mono.dll', fileVersion: 1.0.0.1
+C:\Windows\System32\PSAPI.DLL:PSAPI.DLL (74EA0000), size: 24576 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\PSAPI.DLL', fileVersion: 10.0.26100.1
+C:\Windows\SYSTEM32\MSWSOCK.dll:MSWSOCK.dll (70170000), size: 344064 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\MSWSOCK.dll', fileVersion: 10.0.26100.7309
+C:\Windows\System32\MSCTF.dll:MSCTF.dll (76500000), size: 1155072 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\MSCTF.dll', fileVersion: 10.0.26100.7623
+C:\Windows\SYSTEM32\d3d11.dll:d3d11.dll (68230000), size: 2035712 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\d3d11.dll', fileVersion: 10.0.26100.7623
+C:\Windows\SYSTEM32\dxgi.dll:dxgi.dll (6A1A0000), size: 1073152 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\dxgi.dll', fileVersion: 10.0.26100.7623
+C:\Windows\SYSTEM32\powrprof.dll:powrprof.dll (6EA40000), size: 348160 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\powrprof.dll', fileVersion: 10.0.26100.3912
+C:\Windows\SYSTEM32\UMPDC.dll:UMPDC.dll (6EA20000), size: 57344 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\UMPDC.dll', fileVersion: 10.0.26100.7019
+C:\Windows\SYSTEM32\directxdatabasehelper.dll:directxdatabasehelper.dll (6A8A0000), size: 331776 (result: 0), SymType: '-nosymbols-', PDB: 'C:\Windows\SYSTEM32\directxdatabasehelper.dll', fileVersion: 10.0.26100.7623
+C:\Windows\SYSTEM32\cfgmgr32.dll:cfgmgr32.dll (715B0000), size: 274432 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\cfgmgr32.dll', fileVersion: 10.0.26100.7309
+C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_949baa7b659dc7f0\nvldumd.dll:nvldumd.dll (69B80000), size: 638976 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_949baa7b659dc7f0\nvldumd.dll', fileVersion: 32.0.15.8186
+C:\Windows\SYSTEM32\msasn1.dll:msasn1.dll (6D920000), size: 57344 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\msasn1.dll', fileVersion: 10.0.26100.7623
+C:\Windows\SYSTEM32\cryptnet.dll:cryptnet.dll (6C1F0000), size: 176128 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\cryptnet.dll', fileVersion: 10.0.26100.7309
+C:\Windows\System32\CRYPT32.dll:CRYPT32.dll (75420000), size: 1085440 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\CRYPT32.dll', fileVersion: 10.0.26100.7309
+C:\Windows\SYSTEM32\wldp.dll:wldp.dll (6BAA0000), size: 356352 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\wldp.dll', fileVersion: 10.0.26100.7309
+C:\Windows\SYSTEM32\drvstore.dll:drvstore.dll (69840000), size: 1220608 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\drvstore.dll', fileVersion: 10.0.26100.7309
+C:\Windows\SYSTEM32\devobj.dll:devobj.dll (6D940000), size: 147456 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\devobj.dll', fileVersion: 10.0.26100.1
+C:\Windows\System32\wintrust.dll:wintrust.dll (74EB0000), size: 413696 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\wintrust.dll', fileVersion: 10.0.26100.7309
+C:\Windows\System32\imagehlp.dll:imagehlp.dll (75ED0000), size: 110592 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\imagehlp.dll', fileVersion: 10.0.26100.4202
+C:\Windows\SYSTEM32\CRYPTSP.dll:CRYPTSP.dll (73B80000), size: 81920 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\CRYPTSP.dll', fileVersion: 10.0.26100.7623
+C:\Windows\system32\rsaenh.dll:rsaenh.dll (73B40000), size: 208896 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\rsaenh.dll', fileVersion: 10.0.26100.7019
+C:\Windows\SYSTEM32\bcrypt.dll:bcrypt.dll (73C80000), size: 114688 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\bcrypt.dll', fileVersion: 10.0.26100.7623
+C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_949baa7b659dc7f0\nvgpucomp32.dll:nvgpucomp32.dll (64FD0000), size: 52797440 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_949baa7b659dc7f0\nvgpucomp32.dll', fileVersion: 32.0.15.8186
+C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_949baa7b659dc7f0\NvMemMapStorage.dll:NvMemMapStorage.dll (69AD0000), size: 704512 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_949baa7b659dc7f0\NvMemMapStorage.dll'
+C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_949baa7b659dc7f0\nvwgf2um.dll:nvwgf2um.dll (612D0000), size: 63926272 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_949baa7b659dc7f0\nvwgf2um.dll', fileVersion: 32.0.15.8186
+C:\Windows\system32\nvspcap.dll:nvspcap.dll (610A0000), size: 2265088 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\nvspcap.dll', fileVersion: 3.28.0.417
+C:\Windows\SYSTEM32\ntmarta.dll:ntmarta.dll (6EAA0000), size: 167936 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\ntmarta.dll', fileVersion: 10.0.26100.7019
+C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_949baa7b659dc7f0\nvppe.dll:nvppe.dll (60F60000), size: 1310720 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\DriverStore\FileRepository\nvlt.inf_amd64_949baa7b659dc7f0\nvppe.dll', fileVersion: 32.0.15.8186
+C:\Windows\System32\clbcatq.dll:clbcatq.dll (74E10000), size: 565248 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\clbcatq.dll', fileVersion: 2001.12.10941.16384
+C:\Windows\system32\wbem\wbemprox.dll:wbemprox.dll (70160000), size: 53248 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\wbem\wbemprox.dll', fileVersion: 10.0.26100.7019
+C:\Windows\SYSTEM32\wbemcomn.dll:wbemcomn.dll (700F0000), size: 430080 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\wbemcomn.dll', fileVersion: 10.0.26100.7019
+C:\Windows\system32\wbem\wbemsvc.dll:wbemsvc.dll (6F890000), size: 69632 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\wbem\wbemsvc.dll', fileVersion: 10.0.26100.7019
+C:\Windows\system32\wbem\fastprox.dll:fastprox.dll (6F7C0000), size: 839680 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\system32\wbem\fastprox.dll', fileVersion: 10.0.26100.7309
+C:\Windows\SYSTEM32\amsi.dll:amsi.dll (6F4F0000), size: 86016 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\amsi.dll', fileVersion: 10.0.26100.7309
+C:\Windows\SYSTEM32\USERENV.dll:USERENV.dll (6F4C0000), size: 126976 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\USERENV.dll', fileVersion: 10.0.26100.7309
+C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26010.5-0\X86\MpOav.dll:MpOav.dll (69F60000), size: 569344 (result: 0), SymType: '-exported-', PDB: 'C:\ProgramData\Microsoft\Windows Defender\Platform\4.18.26010.5-0\X86\MpOav.dll', fileVersion: 4.18.26010.5
+C:\Windows\SYSTEM32\mscms.dll:mscms.dll (60EB0000), size: 659456 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\mscms.dll', fileVersion: 10.0.26100.7309
+C:\Windows\SYSTEM32\icm32.dll:icm32.dll (6A860000), size: 249856 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\icm32.dll', fileVersion: 10.0.26100.2314
+C:\Windows\System32\MMDevApi.dll:MMDevApi.dll (6C5C0000), size: 512000 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\MMDevApi.dll', fileVersion: 10.0.26100.7309
+C:\Windows\SYSTEM32\AudioSes.dll:AudioSes.dll (6C400000), size: 1503232 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\AudioSes.dll', fileVersion: 10.0.26100.7309
+C:\ProgramData\A-Volute\A-Volute.Nahimic\Modules\Scheduled\ProductInfo.dll:ProductInfo.dll (69DB0000), size: 348160 (result: 0), SymType: '-exported-', PDB: 'C:\ProgramData\A-Volute\A-Volute.Nahimic\Modules\Scheduled\ProductInfo.dll', fileVersion: 1.10.9.0
+C:\ProgramData\A-Volute\A-Volute.Nahimic\Modules\Scheduled\ASM.Plugin.AudioDevProps2.dll:ASM.Plugin.AudioDevProps2.dll (69800000), size: 229376 (result: 0), SymType: '-exported-', PDB: 'C:\ProgramData\A-Volute\A-Volute.Nahimic\Modules\Scheduled\ASM.Plugin.AudioDevProps2.dll', fileVersion: 1.0.2.0
+C:\Windows\SYSTEM32\winmmbase.dll:winmmbase.dll (6C640000), size: 147456 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\winmmbase.dll', fileVersion: 10.0.26100.7309
+C:\Windows\SYSTEM32\wdmaud.drv:wdmaud.drv (6C580000), size: 249856 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\wdmaud.drv', fileVersion: 10.0.26100.7309
+C:\Windows\SYSTEM32\msacm32.drv:msacm32.drv (6C870000), size: 45056 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\msacm32.drv', fileVersion: 10.0.26100.1882
+C:\Windows\SYSTEM32\MSACM32.dll:MSACM32.dll (6C690000), size: 106496 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\MSACM32.dll', fileVersion: 10.0.26100.7019
+C:\Windows\SYSTEM32\midimap.dll:midimap.dll (6C730000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\midimap.dll', fileVersion: 10.0.26100.1882
+C:\Windows\SYSTEM32\resourcepolicyclient.dll:resourcepolicyclient.dll (6A840000), size: 65536 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\resourcepolicyclient.dll', fileVersion: 10.0.26100.7309
+C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.7623_none_85b5be99f7b06325\comctl32.dll:comctl32.dll (74AC0000), size: 2269184 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.26100.7623_none_85b5be99f7b06325\comctl32.dll', fileVersion: 6.10.26100.7623
+C:\Windows\SYSTEM32\TextShaping.dll:TextShaping.dll (60E00000), size: 675840 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\TextShaping.dll', fileVersion: 10.0.26100.7309
+C:\Windows\SYSTEM32\textinputframework.dll:textinputframework.dll (60CF0000), size: 1064960 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\textinputframework.dll', fileVersion: 10.0.26100.7309
+C:\Windows\SYSTEM32\CoreMessaging.dll:CoreMessaging.dll (60C10000), size: 905216 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\CoreMessaging.dll', fileVersion: 10.0.26100.7623
+C:\Windows\SYSTEM32\CoreUIComponents.dll:CoreUIComponents.dll (607C0000), size: 2695168 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\CoreUIComponents.dll', fileVersion: 10.0.26100.7623
+C:\Windows\SYSTEM32\xinput1_3.dll:xinput1_3.dll (00400000), size: 90112 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\xinput1_3.dll', fileVersion: 9.18.944.0
+C:\Windows\SYSTEM32\dhcpcsvc6.DLL:dhcpcsvc6.DLL (6EA00000), size: 98304 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\dhcpcsvc6.DLL', fileVersion: 10.0.26100.7309
+C:\Windows\SYSTEM32\dhcpcsvc.DLL:dhcpcsvc.DLL (6E9E0000), size: 114688 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\dhcpcsvc.DLL', fileVersion: 10.0.26100.7309
+C:\Windows\System32\rasadhlp.dll:rasadhlp.dll (6C120000), size: 32768 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\rasadhlp.dll', fileVersion: 10.0.26100.6584
+C:\Windows\System32\fwpuclnt.dll:fwpuclnt.dll (74490000), size: 401408 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\fwpuclnt.dll', fileVersion: 10.0.26100.7309
+C:\Windows\SYSTEM32\dwmapi.dll:dwmapi.dll (6A170000), size: 159744 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\dwmapi.dll', fileVersion: 10.0.26100.7309
+C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_e0551683909fdfb5\igd10iumd32.dll:igd10iumd32.dll (602A0000), size: 5373952 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_e0551683909fdfb5\igd10iumd32.dll', fileVersion: 32.0.101.6733
+C:\Windows\SYSTEM32\apphelp.dll:apphelp.dll (74CF0000), size: 712704 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\apphelp.dll', fileVersion: 10.0.26100.7309
+C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_e0551683909fdfb5\igd10um32xe.DLL:igd10um32xe.DLL (5F220000), size: 17256448 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_e0551683909fdfb5\igd10um32xe.DLL', fileVersion: 32.0.101.6733
+C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_e0551683909fdfb5\IntelControlLib32.dll:IntelControlLib32.dll (5F180000), size: 622592 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_e0551683909fdfb5\IntelControlLib32.dll', fileVersion: 1.0.235.0
+C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_e0551683909fdfb5\igdgmm32.dll:igdgmm32.dll (5ED50000), size: 4366336 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_e0551683909fdfb5\igdgmm32.dll', fileVersion: 32.0.101.6733
+C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_e0551683909fdfb5\igc32.dll:igc32.dll (5A510000), size: 75722752 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_e0551683909fdfb5\igc32.dll', fileVersion: 32.0.101.6733
+C:\Users\John Rome Ilagan\Saved Games\Iron Hide Collection\Iron.Marines\Iron Marines\ironmarines_Data\Plugins\steam_api.dll:steam_api.dll (5A3A0000), size: 1495040 (result: 0), SymType: '-exported-', PDB: 'C:\Users\John Rome Ilagan\Saved Games\Iron Hide Collection\Iron.Marines\Iron Marines\ironmarines_Data\Plugins\steam_api.dll'
+C:\Windows\SYSTEM32\DINPUT8.dll:DINPUT8.dll (60BD0000), size: 229376 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\DINPUT8.dll', fileVersion: 10.0.26100.1591
+C:\Windows\SYSTEM32\dbghelp.dll:dbghelp.dll (73250000), size: 1966080 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\dbghelp.dll', fileVersion: 10.0.26100.5074
+C:\Windows\SYSTEM32\WININET.dll:WININET.dll (74800000), size: 2244608 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\WININET.dll', fileVersion: 11.0.26100.7309
+C:\Windows\SYSTEM32\inputhost.dll:inputhost.dll (5A220000), size: 1523712 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\inputhost.dll', fileVersion: 10.0.26100.7623
+C:\Program Files\Cheat Engine\autorun\dlls\MonoDataCollector32.dll:MonoDataCollector32.dll (5A190000), size: 552960 (result: 0), SymType: '-exported-', PDB: 'C:\Program Files\Cheat Engine\autorun\dlls\MonoDataCollector32.dll'
+C:\Windows\SYSTEM32\SspiCli.dll:SspiCli.dll (6EB30000), size: 176128 (result: 0), SymType: '-exported-', PDB: 'C:\Windows\SYSTEM32\SspiCli.dll', fileVersion: 10.0.26100.7309
+
+========== OUTPUTING STACK TRACE ==================
+
+0x10108FF2 (mono) mono_unity_liveness_calculation_end
+0x101093D4 (mono) mono_unity_liveness_calculation_end
+0x1010940E (mono) mono_unity_liveness_calculation_end
+0x10109698 (mono) mono_unity_liveness_calculation_from_root
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 688F495F)
+0x688F495F (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 6880C057)
+0x6880C057 (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 6880B851)
+0x6880B851 (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 6880B73A)
+0x6880B73A (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 6880AB86)
+0x6880AB86 (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 68838F4D)
+0x68838F4D (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 6883A4EA)
+0x6883A4EA (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 6881570A)
+0x6881570A (UnityPlayer) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 68C98F6C)
+0x68C98F6C (UnityPlayer) (function-name not available)
+0x68C990A5 (UnityPlayer) UnityMain
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00BC1275)
+0x00BC1275 (ironmarines) (function-name not available)
+  ERROR: SymGetSymFromAddr64, GetLastError: 'Attempt to access invalid address.' (Address: 00BC1437)
+0x00BC1437 (ironmarines) (function-name not available)
+0x76635D49 (KERNEL32) BaseThreadInitThunk
+0x7740D5DB (ntdll) RtlInitializeExceptionChain
+0x7740D561 (ntdll) RtlGetAppContainerNamedObjectPath
+
+========== END OF STACKTRACE ===========
+
+**** Crash! ****

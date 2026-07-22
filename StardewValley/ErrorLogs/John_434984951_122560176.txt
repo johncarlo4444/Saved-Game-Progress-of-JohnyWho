@@ -1,0 +1,22 @@
+Message: Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+InnerException: 
+Stack Trace:    at StardewValley.AnimatedSprite.draw(SpriteBatch b, Vector2 screenPosition, Single layerDepth, Int32 xOffset, Int32 yOffset, Color c, Boolean flip, Single scale, Single rotation, Boolean characterSourceRectOffset) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\AnimatedSprite.cs:line 571
+   at StardewValley.BellsAndWhistles.Butterfly.drawAboveFrontLayer(SpriteBatch b) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\BellsAndWhistles\Butterfly.cs:line 175
+   at StardewValley.GameLocation.drawAboveAlwaysFrontLayer(SpriteBatch b) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\Locations\GameLocation.cs:line 3784
+   at StardewValley.Game1.DrawWorld(GameTime time, RenderTarget2D target_screen) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\Game1.cs:line 16095
+   at StardewValley.Game1._draw(GameTime gameTime, RenderTarget2D target_screen) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\Game1.cs:line 15614
+   at StardewValley.Game1.Draw(GameTime gameTime) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\Game1.cs:line 15413
+   at StardewValley.GameRunner.Draw(GameTime gameTime) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\LocalMultiplayer.cs:line 617
+   at Microsoft.Xna.Framework.Game.DoDraw(GameTime gameTime) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\MonoGame.Desktop\MonoGame.Framework\Game.cs:line 932
+   at Microsoft.Xna.Framework.Game.Tick() in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\MonoGame.Desktop\MonoGame.Framework\Game.cs:line 661
+   at Microsoft.Xna.Framework.SdlGamePlatform.RunLoop() in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\MonoGame.Desktop\MonoGame.Framework\Platform\SDL\SDLGamePlatform.cs:line 90
+   at Microsoft.Xna.Framework.Game.Run(GameRunBehavior runBehavior) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\MonoGame.Desktop\MonoGame.Framework\Game.cs:line 481
+   at StardewValley.Program.Main(String[] args) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\Program.cs:line 219
+
+Game Version: 1.6.15 build 24356
+SDK Helper: GalaxyHelper
+Game Language: en
+GPU: NVIDIA GeForce RTX 3050 6GB Laptop GPU/PCIe/SSE2
+OS: Win32NT Microsoft Windows NT 10.0.26200.0
+In-game Date: Winter 24 Y1 Time of Day: 1440
+Game Location: FarmHouse

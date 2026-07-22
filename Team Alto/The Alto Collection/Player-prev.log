@@ -1,0 +1,169 @@
+Mono path[0] = 'C:/Users/John Rome Ilagan/Saved Games/TheAltoCollection/The Alto Collection_Data/Managed'
+Mono config path = 'C:/Users/John Rome Ilagan/Saved Games/TheAltoCollection/MonoBleedingEdge/etc'
+Initialize engine version: 2019.2.6f1 (fe82a0e88406)
+[XR] Discovering subsystems at path C:/Users/John Rome Ilagan/Saved Games/TheAltoCollection/The Alto Collection_Data/UnitySubsystems
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 6GB Laptop GPU (ID=0x25ec)
+    Vendor:   
+    VRAM:     6002 MB
+    Driver:   32.0.15.6650
+Begin MonoManager ReloadAssembly
+- Completed reload, in  8.575 seconds
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.620700 ms
+WwiseUnity: Sound engine initialized successfully.
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[SplashScreen] Noise keyword set to <b>True</b>
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[0]: C:\Users\John Rome Ilagan\Saved Games\TheAltoCollection\The Alto Collection.exe
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Succeeded: Initialize
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+[GraphicsManager] Warming up <b>noise</b> shader variants
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Setting up 8 worker threads for Enlighten.
+  Thread -> id: 43fc -> priority: 1 
+  Thread -> id: 3ac4 -> priority: 1 
+  Thread -> id: 4484 -> priority: 1 
+  Thread -> id: 44d0 -> priority: 1 
+  Thread -> id: 760 -> priority: 1 
+  Thread -> id: 638 -> priority: 1 
+  Thread -> id: 3154 -> priority: 1 
+  Thread -> id: 3904 -> priority: 1 
+Succeeded: Create Platform
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Succeeded: Register Login: 8
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Credentials: Type: ExchangeCode Id:  Token: 
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Login InvalidParameters
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Failed: Login
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.725100 ms
+Instance of manager prefab 'GameSelectPanel' already exists in scene
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Destroying singleton AltoSceneManager
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 4025.
+Total: 1.625900 ms (FindLiveObjects: 0.402300 ms CreateObjectMapping: 0.083500 ms MarkObjects: 1.094500 ms  DeleteObjects: 0.045300 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 4025.
+Total: 1.564100 ms (FindLiveObjects: 0.232600 ms CreateObjectMapping: 0.059600 ms MarkObjects: 1.266600 ms  DeleteObjects: 0.005100 ms)
+
+Credentials: Type: ExchangeCode Id:  Token: 
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Login InvalidParameters
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Failed: Login
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Credentials: Type: ExchangeCode Id:  Token: 
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Login InvalidParameters
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Failed: Login
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 18.330100 ms
+odyssey scene set
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+TODO: Console check for connectivity to online services and check if social services can be used. Return result in callback. Hardcoded to true.
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+TODO: Load achievements retrieved from console network, and pass it back in the callback. Reports progression back to the game, to make sure we are in sync (If the game is redownloaded etc.).
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+
+Unloading 467 unused Assets to reduce memory usage. Loaded Objects now: 63544.
+Total: 38.771600 ms (FindLiveObjects: 2.877300 ms CreateObjectMapping: 0.952200 ms MarkObjects: 34.525300 ms  DeleteObjects: 0.416500 ms)
+
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0)
+
+Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 63541.
+Total: 36.152500 ms (FindLiveObjects: 2.328500 ms CreateObjectMapping: 0.797400 ms MarkObjects: 32.916100 ms  DeleteObjects: 0.110100 ms)
+
+Credentials: Type: ExchangeCode Id:  Token: 
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Login InvalidParameters
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Failed: Login
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Credentials: Type: ExchangeCode Id:  Token: 
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Login InvalidParameters
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Failed: Login
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Credentials: Type: ExchangeCode Id:  Token: 
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Login InvalidParameters
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+
+Failed: Login
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug/Debug.bindings.h Line: 35)
+

@@ -1,0 +1,4 @@
+{"type":"perf.sceneLoadingTime.v1","msg":{"ts":1770713935671,"scene_name":"Stage","scene_index":2,"background_time":1423682304,"integrate_time":309226208,"ts_integrate_time":493265408,"total_time":2393050368}}
+{"type":"perf.sceneLoadingTime.v1","msg":{"ts":1770713936453,"scene_name":"BodyWoman","scene_index":4,"background_time":240038496,"integrate_time":7297100,"ts_integrate_time":41535800,"total_time":334062720}}
+{"type":"analytics.appRunning.v1","msg":{"ts":1770713953469,"duration":0,"local_time_offset":-28800000}}
+(1){"type":"analytics.appStop.v1","msg":{"ts":1770713953470}}

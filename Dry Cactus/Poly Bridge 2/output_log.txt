@@ -1,0 +1,332 @@
+Initialize engine version: 2018.4.35f1 (dbb5675dce2d)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 6GB Laptop GPU (ID=0x25ec)
+    Vendor:   
+    VRAM:     6002 MB
+    Driver:   32.0.15.6650
+Begin MonoManager ReloadAssembly
+- Completed reload, in  0.150 seconds
+OnLevelWasLoaded was found on LineManager
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename:  Line: 356)
+
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 3.154900 ms
+Unloading 6 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.836300 ms
+PEPRSISTENT DATA DIRECTORY: 'C:/Users/John Rome Ilagan/AppData/LocalLow/Dry Cactus/Poly Bridge 2'
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+PEPRSISTENT DATA DIRECTORY CENSORED: 'AppData/LocalLow/Dry Cactus/Poly Bridge 2'
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+>>> GAME VERSION: v1.29
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+Setting up 8 worker threads for Enlighten.
+  Thread -> id: 1f48 -> priority: 1 
+  Thread -> id: 34b0 -> priority: 1 
+  Thread -> id: 3010 -> priority: 1 
+  Thread -> id: 2610 -> priority: 1 
+  Thread -> id: 86c -> priority: 1 
+  Thread -> id: 2338 -> priority: 1 
+  Thread -> id: 34b4 -> priority: 1 
+  Thread -> id: 1188 -> priority: 1 
+Download weekly challenges success
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+Download leaderboard buckets success
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+BUCKETS BINARY LOAD TIME: 3ms
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+Download weekly challenge buckets success
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 68594.
+Total: 175.405200 ms (FindLiveObjects: 2.193000 ms CreateObjectMapping: 1.323700 ms MarkObjects: 171.769100 ms  DeleteObjects: 0.118500 ms)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+https://pb2-public-api.drycactus.com/v1/steam/user/authenticate?ticket=140000007b7b7b7b02000000c1f1f979010010017b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+Received stats and achievements from Steam
+
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+SteamUserStats.GetAchievement failed for Achievement BeatLevel_Tutorial
+Is it registered in the Steam Partner site?
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+SteamUserStats.GetAchievement failed for Achievement UnderBudget_FiftyPercent
+Is it registered in the Steam Partner site?
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+SteamUserStats.GetAchievement failed for Achievement HydraulicLevel_NoHydraulicsUsed
+Is it registered in the Steam Partner site?
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+SteamUserStats.GetAchievement failed for Achievement ShareReplay
+Is it registered in the Steam Partner site?
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+SteamUserStats.GetAchievement failed for Achievement BeatLevel_Workshop
+Is it registered in the Steam Partner site?
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+SteamUserStats.GetAchievement failed for Achievement BeatCampaign_Workshop
+Is it registered in the Steam Partner site?
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+SteamUserStats.GetAchievement failed for Achievement BeatLevel_Challenge
+Is it registered in the Steam Partner site?
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+SteamUserStats.GetAchievement failed for Achievement BeatCampaign_Challenge
+Is it registered in the Steam Partner site?
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+SteamUserStats.GetAchievement failed for Achievement CompleteMainAndChallengeWorlds
+Is it registered in the Steam Partner site?
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+SteamUserStats.GetAchievement failed for Achievement CompleteMainAndChallengeWorlds_UnderBudgetNoBreaks
+Is it registered in the Steam Partner site?
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+SteamUserStats.GetAchievement failed for Achievement PineMountains_Complete
+Is it registered in the Steam Partner site?
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+SteamUserStats.GetAchievement failed for Achievement PineMountains_UnderBudgetNoBreaks
+Is it registered in the Steam Partner site?
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+SteamUserStats.GetAchievement failed for Achievement Volcano_Complete
+Is it registered in the Steam Partner site?
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+SteamUserStats.GetAchievement failed for Achievement Volcano_UnderBudgetNoBreaks
+Is it registered in the Steam Partner site?
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+SteamUserStats.GetAchievement failed for Achievement Savanna_Complete
+Is it registered in the Steam Partner site?
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+SteamUserStats.GetAchievement failed for Achievement Savanna_UnderBudgetNoBreaks
+Is it registered in the Steam Partner site?
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+SteamUserStats.GetAchievement failed for Achievement Western_Complete
+Is it registered in the Steam Partner site?
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+SteamUserStats.GetAchievement failed for Achievement Western_UnderBudgetNoBreaks
+Is it registered in the Steam Partner site?
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+SteamUserStats.GetAchievement failed for Achievement ZenGardens_Complete
+Is it registered in the Steam Partner site?
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+SteamUserStats.GetAchievement failed for Achievement ZenGardens_UnderBudgetNoBreaks
+Is it registered in the Steam Partner site?
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+SteamUserStats.GetAchievement failed for Achievement Steampunk_Complete
+Is it registered in the Steam Partner site?
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+SteamUserStats.GetAchievement failed for Achievement Steampunk_UnderBudgetNoBreaks
+Is it registered in the Steam Partner site?
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 68594.
+Total: 171.774700 ms (FindLiveObjects: 2.037300 ms CreateObjectMapping: 1.236100 ms MarkObjects: 168.429300 ms  DeleteObjects: 0.071600 ms)
+
+HTTP[403]
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+DC: Back End Authentication FAILED with response code: 403
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+https://pb2-public-api.drycactus.com/v1/steam/user/authenticate?ticket=140000007b7b7b7b03000000c1f1f979010010017b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+HTTP[403]
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+DC: Back End Authentication FAILED with response code: 403
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+Download leaderboard cache success for level '0A5Zn'
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+https://pb2-public-api.drycactus.com/v1/steam/user/authenticate?ticket=140000007b7b7b7b04000000c1f1f979010010017b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+HTTP[403]
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+DC: Back End Authentication FAILED with response code: 403
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+https://pb2-public-api.drycactus.com/v1/steam/user/authenticate?ticket=140000007b7b7b7b05000000c1f1f979010010017b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+HTTP[403]
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+DC: Back End Authentication FAILED with response code: 403
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+https://pb2-public-api.drycactus.com/v1/steam/user/authenticate?ticket=140000007b7b7b7b06000000c1f1f979010010017b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b7b
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+HTTP[403]
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+DC: Back End Authentication FAILED with response code: 403
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+https://pb2-authed-api.drycactus.com/v1/score/create/in/leaderboard/0A5Zn/unbroken/v3?physics_engine_version=1
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+Download leaderboard cache success for level 'JbOmn'
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+FAILURE CODE: 401 REASON: Unauthorized.
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+https://pb2-authed-api.drycactus.com/v1/score/create/in/leaderboard/JbOmn/unbroken/v3?physics_engine_version=1
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+Download leaderboard cache success for level 'aVeaV'
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+FAILURE CODE: 401 REASON: Unauthorized.
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+https://pb2-authed-api.drycactus.com/v1/score/create/in/leaderboard/aVeaV/unbroken/v3?physics_engine_version=1
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+FAILURE CODE: 401 REASON: Unauthorized.
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+Download leaderboard cache success for level '5VlRA'
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+https://pb2-authed-api.drycactus.com/v1/score/create/in/leaderboard/5VlRA/broken/v3?physics_engine_version=1
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+Download leaderboard cache success for level 'gnR7V'
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+FAILURE CODE: 401 REASON: Unauthorized.
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+https://pb2-authed-api.drycactus.com/v1/score/create/in/leaderboard/gnR7V/unbroken/v3?physics_engine_version=1
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+FAILURE CODE: 401 REASON: Unauthorized.
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+Download leaderboard cache success for level '7b7xA'
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+https://pb2-authed-api.drycactus.com/v1/score/create/in/leaderboard/7b7xA/unbroken/v3?physics_engine_version=1
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+FAILURE CODE: 401 REASON: Unauthorized.
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+*** ENDPOINT COUNTERS ***
+6 : score/create/in/leaderboard/{0}/{1}/v3
+Total endpoint calls: 6
+Calls per minute: 0.1541609
+
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+
+*** ENDPOINT COUNTERS ***
+6 : score/create/in/leaderboard/{0}/{1}/v3
+Total endpoint calls: 6
+Calls per minute: 0.15409
+
+ 
+(Filename: C:\buildslave\unity\build\Runtime/Export/Debug.bindings.h Line: 45)
+

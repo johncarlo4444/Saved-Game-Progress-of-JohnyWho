@@ -1,0 +1,115 @@
+{
+    "$id": 0,
+    "$type": "0|ProfileProgressProxy, Assembly-CSharp",
+    "m_CampaignLevels": {
+        "$id": 1,
+        "$type": "1|System.Collections.Generic.Dictionary`2[[System.String, mscorlib],[CampaignLevelState, Assembly-CSharp]], mscorlib",
+        "comparer": {
+            "$id": 2,
+            "$type": "2|System.Collections.Generic.InternalStringComparer, mscorlib"
+        },
+        "$rlength": 10,
+        "$rcontent": [
+            {
+                "mAp2V",
+                {
+                    "$id": 3,
+                    "$type": "3|CampaignLevelState, Assembly-CSharp",
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 78.38965,
+                    "m_Status": 3
+                }
+            },
+            {
+                "ffffff",
+                {
+                    "$id": 4,
+                    "$type": 3,
+                    "m_Completed": false,
+                    "m_ElapsedSeconds": 114.4359,
+                    "m_Status": 0
+                }
+            },
+            {
+                "NAgrb",
+                {
+                    "$id": 5,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 86.90441,
+                    "m_Status": 3
+                }
+            },
+            {
+                "Bbm2A",
+                {
+                    "$id": 6,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 190.975891,
+                    "m_Status": 3
+                }
+            },
+            {
+                "0A5Zn",
+                {
+                    "$id": 7,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 107.340317,
+                    "m_Status": 3
+                }
+            },
+            {
+                "JbOmn",
+                {
+                    "$id": 8,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 575.4269,
+                    "m_Status": 3
+                }
+            },
+            {
+                "aVeaV",
+                {
+                    "$id": 9,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 284.429871,
+                    "m_Status": 3
+                }
+            },
+            {
+                "5VlRA",
+                {
+                    "$id": 10,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 50.29357,
+                    "m_Status": 2
+                }
+            },
+            {
+                "gnR7V",
+                {
+                    "$id": 11,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 130.9011,
+                    "m_Status": 3
+                }
+            },
+            {
+                "7b7xA",
+                {
+                    "$id": 12,
+                    "$type": 3,
+                    "m_Completed": true,
+                    "m_ElapsedSeconds": 339.4066,
+                    "m_Status": 1
+                }
+            }
+        ]
+    }
+}

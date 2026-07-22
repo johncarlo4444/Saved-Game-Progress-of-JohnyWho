@@ -1,0 +1,22 @@
+Message: Index was outside the bounds of the array.
+InnerException: 
+Stack Trace:    at System.Collections.Generic.Dictionary`2.TryInsert(TKey key, TValue value, InsertionBehavior behavior)
+   at StardewValley.Game1.createItemDebris(Item item, Vector2 pixelOrigin, Int32 direction, GameLocation location, Int32 groundLevel, Boolean flopFish) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\Game1.cs:line 12124
+   at StardewValley.Menus.InventoryPage.receiveLeftClick(Int32 x, Int32 y, Boolean playSound) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\Menus\InventoryPage.cs:line 569
+   at StardewValley.Game1.updateActiveMenu(GameTime gameTime) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\Game1.cs:line 5082
+   at StardewValley.Game1._update(GameTime gameTime) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\Game1.cs:line 4269
+   at StardewValley.Game1.Update(GameTime gameTime) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\Game1.cs:line 3454
+   at StardewValley.GameRunner.Update(GameTime gameTime) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\LocalMultiplayer.cs:line 927
+   at Microsoft.Xna.Framework.Game.DoUpdate(GameTime gameTime) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\MonoGame.Desktop\MonoGame.Framework\Game.cs:line 917
+   at Microsoft.Xna.Framework.Game.Tick() in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\MonoGame.Desktop\MonoGame.Framework\Game.cs:line 620
+   at Microsoft.Xna.Framework.SdlGamePlatform.RunLoop() in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\MonoGame.Desktop\MonoGame.Framework\Platform\SDL\SDLGamePlatform.cs:line 90
+   at Microsoft.Xna.Framework.Game.Run(GameRunBehavior runBehavior) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\MonoGame.Desktop\MonoGame.Framework\Game.cs:line 481
+   at StardewValley.Program.Main(String[] args) in D:\GitlabRunner\builds\Gq5qA5P4\1\ConcernedApe\stardewvalley\Farmer\Farmer\Program.cs:line 219
+
+Game Version: 1.6.15 build 24356
+SDK Helper: GalaxyHelper
+Game Language: en
+GPU: NVIDIA GeForce RTX 3050 6GB Laptop GPU/PCIe/SSE2
+OS: Win32NT Microsoft Windows NT 10.0.26200.0
+In-game Date: Fall 18 Y1 Time of Day: 1310
+Game Location: FarmHouse

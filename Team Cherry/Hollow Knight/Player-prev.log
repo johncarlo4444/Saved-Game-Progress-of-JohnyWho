@@ -1,0 +1,91 @@
+Mono path[0] = 'C:/Users/John Rome Ilagan/Saved Games/Hollow Knight/hollow_knight_Data/Managed'
+Mono config path = 'C:/Users/John Rome Ilagan/Saved Games/Hollow Knight/MonoBleedingEdge/etc'
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Initialize engine version: 6000.0.61f1 (74a0adb02c31)
+[Subsystems] Discovering subsystems at path C:/Users/John Rome Ilagan/Saved Games/Hollow Knight/hollow_knight_Data/UnitySubsystems
+GfxDevice: creating device client; kGfxThreadingModeThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 6GB Laptop GPU (ID=0x25ec)
+    Vendor:   NVIDIA
+    VRAM:     6002 MB
+    Driver:   32.0.15.8186
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.085 seconds
+- Finished resetting the current domain, in  0.003 seconds
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+<RI> Initializing input.
+Using Windows.Gaming.Input
+<RI> Input initialized.
+UnloadTime: 1.637000 ms
+Steam initializing
+Steam logged in as STEAMRIP
+Selected online subsystem SteamOnlineSubsystem
+Discovered supported languages: DE, EN, ES, FR, IT, JA, KO, PT, RU, ZH
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Loaded saved language code 'EN'
+Restored language code 'EN'
+Unloading 48 unused Assets to reduce memory usage. Loaded Objects now: 4240.
+Total: 2.238700 ms (FindLiveObjects: 0.126200 ms CreateObjectMapping: 0.060600 ms MarkObjects: 2.030300 ms  DeleteObjects: 0.021200 ms)
+
+Couldn't find GameCameras, make sure one exists in the scene.
+Steam stats received.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+Didn't need to wait for PlayerPrefs load.
+Couldn't find GameCameras, make sure one exists in the scene.
+UnloadTime: 4.346900 ms
+DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
+Performing automatic level start.
+Game controller set to None.
+Loaded saved language code 'EN'
+Restored language code 'EN'
+Attempting to get `timeSamples` on an audio source that has a resource assigned that is not a clip is ignored!
+pd.maxHealth: 8 pd.maxHealthBase: 8
+pd.maxHealth: 7 pd.maxHealthBase: 7
+Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 47345.
+Total: 36.067500 ms (FindLiveObjects: 2.746100 ms CreateObjectMapping: 0.885400 ms MarkObjects: 32.120700 ms  DeleteObjects: 0.314500 ms)
+
+Making UI menu lean.
+Attempting to get `timeSamples` on an audio source that has a resource assigned that is not a clip is ignored!
+Unloading 11 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 191 unused Assets to reduce memory usage. Loaded Objects now: 51598.
+Total: 30.652600 ms (FindLiveObjects: 2.836800 ms CreateObjectMapping: 1.005200 ms MarkObjects: 24.470200 ms  DeleteObjects: 2.339400 ms)
+
+Attempting to update blur with no renderer. Will try to find it now...
+Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
+Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
+Object Pool attached to GlobalPool has run out of Strike Nail R prefabs, Instantiating an additional one.
+Object Pool attached to GlobalPool has run out of Slash Impact R prefabs, Instantiating an additional one.
+Object Pool attached to GlobalPool could not find a copy of Uninfected Hit Pt, Instantiating a new one.
+Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
+Object Pool attached to GlobalPool has run out of Uninfected Hit Pt prefabs, Instantiating an additional one.
+Object Pool attached to GlobalPool has run out of Slash Effect Ghost1 prefabs, Instantiating an additional one.
+Object Pool attached to GlobalPool has run out of Slash Effect Ghost1 prefabs, Instantiating an additional one.
+Object Pool attached to GlobalPool has run out of Slash Effect Ghost1 prefabs, Instantiating an additional one.
+Object Pool attached to GlobalPool has run out of Slash Effect Ghost1 prefabs, Instantiating an additional one.
+Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
+Object Pool attached to GlobalPool has run out of Run Effects prefabs, Instantiating an additional one.
+Object Pool attached to GlobalPool could not find a copy of Relic Get Msg, Instantiating a new one.
+Object Pool attached to GlobalPool could not find a copy of Dripper White, Instantiating a new one.
+Bump Height: 0.103775
+Bump Height: 0.1037903
+Bump Height: 0.2631989
+Shutting down Steam API.
+NullReferenceException: Object reference not set to an instance of an object.
+  at UnityEngine.Bindings.ThrowHelper.ThrowNullReferenceException (System.Object obj) [0x00018] in <89f741081c874c65b780dbd6a0d8d33e>:0 
+  at UnityEngine.Component.get_transform () [0x00006] in <89f741081c874c65b780dbd6a0d8d33e>:0 
+  at CameraController.ReleaseLock (CameraLockArea lockarea) [0x000de] in <4a36faaffa4d4c19a77d446f44da4395>:0 
+  at CameraLockArea.OnTriggerExit2D (UnityEngine.Collider2D otherCollider) [0x00167] in <4a36faaffa4d4c19a77d446f44da4395>:0 
+
+[Physics::Module] Cleanup current backned.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input System polling thread exited.
+Input System module state changed to: Shutdown.

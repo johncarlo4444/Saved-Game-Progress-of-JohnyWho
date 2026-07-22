@@ -1,0 +1,387 @@
+window.addEventListener('DOMContentLoaded', function () {
+  var textContents = document.querySelectorAll('.c-commentItem__body p:not(.js-more)');
+  textContents.forEach(function (textContent) {
+    if (textContent.clientHeight >= 200) {
+      var moreButton = document.createElement('div');
+      moreButton.classList.add('more-button');
+      moreButton.innerHTML = '<span>See more.</span>';
+      moreButton.addEventListener('click', function () {
+        textContent.classList.add('is-open');
+        moreButton.remove();
+      });
+      textContent.classList.add('js-more');
+      textContent.appendChild(moreButton);
+    }
+  });
+});
+window.addEventListener('DOMContentLoaded', function () {
+  var comment_form_textarea = document.getElementById('js-comment-form-textarea');
+  var comment_form_counter = document.getElementById('js-form-word-counter');
+  if (!comment_form_textarea || !comment_form_counter) return;
+  var comment_length_limit = comment_form_textarea.maxLength;
+  var updateRemainingCommentLength = function updateRemainingCommentLength() {
+    clearTimeout(comment_form_textarea.dataset.timeout);
+    var comment_length = comment_form_textarea.value.length;
+    comment_form_textarea.dataset.timeout = setTimeout(function () {
+      var comment_remaining_count = comment_length_limit - comment_length;
+      comment_form_counter.textContent = comment_remaining_count < 0 ? "".concat(comment_remaining_count, "character over") : "Remaining:".concat(comment_remaining_count, "characters");
+      comment_form_counter.classList.toggle('over', comment_remaining_count < 0);
+    }, 300);
+  };
+  updateRemainingCommentLength();
+  comment_form_textarea.addEventListener('keyup', function () {
+    return updateRemainingCommentLength();
+  }, false);
+  comment_form_textarea.addEventListener('paste', function () {
+    return updateRemainingCommentLength();
+  }, false);
+});
+function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
+function _regeneratorRuntime() { "use strict"; /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */ _regeneratorRuntime = function _regeneratorRuntime() { return e; }; var t, e = {}, r = Object.prototype, n = r.hasOwnProperty, o = Object.defineProperty || function (t, e, r) { t[e] = r.value; }, i = "function" == typeof Symbol ? Symbol : {}, a = i.iterator || "@@iterator", c = i.asyncIterator || "@@asyncIterator", u = i.toStringTag || "@@toStringTag"; function define(t, e, r) { return Object.defineProperty(t, e, { value: r, enumerable: !0, configurable: !0, writable: !0 }), t[e]; } try { define({}, ""); } catch (t) { define = function define(t, e, r) { return t[e] = r; }; } function wrap(t, e, r, n) { var i = e && e.prototype instanceof Generator ? e : Generator, a = Object.create(i.prototype), c = new Context(n || []); return o(a, "_invoke", { value: makeInvokeMethod(t, r, c) }), a; } function tryCatch(t, e, r) { try { return { type: "normal", arg: t.call(e, r) }; } catch (t) { return { type: "throw", arg: t }; } } e.wrap = wrap; var h = "suspendedStart", l = "suspendedYield", f = "executing", s = "completed", y = {}; function Generator() {} function GeneratorFunction() {} function GeneratorFunctionPrototype() {} var p = {}; define(p, a, function () { return this; }); var d = Object.getPrototypeOf, v = d && d(d(values([]))); v && v !== r && n.call(v, a) && (p = v); var g = GeneratorFunctionPrototype.prototype = Generator.prototype = Object.create(p); function defineIteratorMethods(t) { ["next", "throw", "return"].forEach(function (e) { define(t, e, function (t) { return this._invoke(e, t); }); }); } function AsyncIterator(t, e) { function invoke(r, o, i, a) { var c = tryCatch(t[r], t, o); if ("throw" !== c.type) { var u = c.arg, h = u.value; return h && "object" == _typeof(h) && n.call(h, "__await") ? e.resolve(h.__await).then(function (t) { invoke("next", t, i, a); }, function (t) { invoke("throw", t, i, a); }) : e.resolve(h).then(function (t) { u.value = t, i(u); }, function (t) { return invoke("throw", t, i, a); }); } a(c.arg); } var r; o(this, "_invoke", { value: function value(t, n) { function callInvokeWithMethodAndArg() { return new e(function (e, r) { invoke(t, n, e, r); }); } return r = r ? r.then(callInvokeWithMethodAndArg, callInvokeWithMethodAndArg) : callInvokeWithMethodAndArg(); } }); } function makeInvokeMethod(e, r, n) { var o = h; return function (i, a) { if (o === f) throw Error("Generator is already running"); if (o === s) { if ("throw" === i) throw a; return { value: t, done: !0 }; } for (n.method = i, n.arg = a;;) { var c = n.delegate; if (c) { var u = maybeInvokeDelegate(c, n); if (u) { if (u === y) continue; return u; } } if ("next" === n.method) n.sent = n._sent = n.arg;else if ("throw" === n.method) { if (o === h) throw o = s, n.arg; n.dispatchException(n.arg); } else "return" === n.method && n.abrupt("return", n.arg); o = f; var p = tryCatch(e, r, n); if ("normal" === p.type) { if (o = n.done ? s : l, p.arg === y) continue; return { value: p.arg, done: n.done }; } "throw" === p.type && (o = s, n.method = "throw", n.arg = p.arg); } }; } function maybeInvokeDelegate(e, r) { var n = r.method, o = e.iterator[n]; if (o === t) return r.delegate = null, "throw" === n && e.iterator.return && (r.method = "return", r.arg = t, maybeInvokeDelegate(e, r), "throw" === r.method) || "return" !== n && (r.method = "throw", r.arg = new TypeError("The iterator does not provide a '" + n + "' method")), y; var i = tryCatch(o, e.iterator, r.arg); if ("throw" === i.type) return r.method = "throw", r.arg = i.arg, r.delegate = null, y; var a = i.arg; return a ? a.done ? (r[e.resultName] = a.value, r.next = e.nextLoc, "return" !== r.method && (r.method = "next", r.arg = t), r.delegate = null, y) : a : (r.method = "throw", r.arg = new TypeError("iterator result is not an object"), r.delegate = null, y); } function pushTryEntry(t) { var e = { tryLoc: t[0] }; 1 in t && (e.catchLoc = t[1]), 2 in t && (e.finallyLoc = t[2], e.afterLoc = t[3]), this.tryEntries.push(e); } function resetTryEntry(t) { var e = t.completion || {}; e.type = "normal", delete e.arg, t.completion = e; } function Context(t) { this.tryEntries = [{ tryLoc: "root" }], t.forEach(pushTryEntry, this), this.reset(!0); } function values(e) { if (e || "" === e) { var r = e[a]; if (r) return r.call(e); if ("function" == typeof e.next) return e; if (!isNaN(e.length)) { var o = -1, i = function next() { for (; ++o < e.length;) if (n.call(e, o)) return next.value = e[o], next.done = !1, next; return next.value = t, next.done = !0, next; }; return i.next = i; } } throw new TypeError(_typeof(e) + " is not iterable"); } return GeneratorFunction.prototype = GeneratorFunctionPrototype, o(g, "constructor", { value: GeneratorFunctionPrototype, configurable: !0 }), o(GeneratorFunctionPrototype, "constructor", { value: GeneratorFunction, configurable: !0 }), GeneratorFunction.displayName = define(GeneratorFunctionPrototype, u, "GeneratorFunction"), e.isGeneratorFunction = function (t) { var e = "function" == typeof t && t.constructor; return !!e && (e === GeneratorFunction || "GeneratorFunction" === (e.displayName || e.name)); }, e.mark = function (t) { return Object.setPrototypeOf ? Object.setPrototypeOf(t, GeneratorFunctionPrototype) : (t.__proto__ = GeneratorFunctionPrototype, define(t, u, "GeneratorFunction")), t.prototype = Object.create(g), t; }, e.awrap = function (t) { return { __await: t }; }, defineIteratorMethods(AsyncIterator.prototype), define(AsyncIterator.prototype, c, function () { return this; }), e.AsyncIterator = AsyncIterator, e.async = function (t, r, n, o, i) { void 0 === i && (i = Promise); var a = new AsyncIterator(wrap(t, r, n, o), i); return e.isGeneratorFunction(r) ? a : a.next().then(function (t) { return t.done ? t.value : a.next(); }); }, defineIteratorMethods(g), define(g, u, "Generator"), define(g, a, function () { return this; }), define(g, "toString", function () { return "[object Generator]"; }), e.keys = function (t) { var e = Object(t), r = []; for (var n in e) r.push(n); return r.reverse(), function next() { for (; r.length;) { var t = r.pop(); if (t in e) return next.value = t, next.done = !1, next; } return next.done = !0, next; }; }, e.values = values, Context.prototype = { constructor: Context, reset: function reset(e) { if (this.prev = 0, this.next = 0, this.sent = this._sent = t, this.done = !1, this.delegate = null, this.method = "next", this.arg = t, this.tryEntries.forEach(resetTryEntry), !e) for (var r in this) "t" === r.charAt(0) && n.call(this, r) && !isNaN(+r.slice(1)) && (this[r] = t); }, stop: function stop() { this.done = !0; var t = this.tryEntries[0].completion; if ("throw" === t.type) throw t.arg; return this.rval; }, dispatchException: function dispatchException(e) { if (this.done) throw e; var r = this; function handle(n, o) { return a.type = "throw", a.arg = e, r.next = n, o && (r.method = "next", r.arg = t), !!o; } for (var o = this.tryEntries.length - 1; o >= 0; --o) { var i = this.tryEntries[o], a = i.completion; if ("root" === i.tryLoc) return handle("end"); if (i.tryLoc <= this.prev) { var c = n.call(i, "catchLoc"), u = n.call(i, "finallyLoc"); if (c && u) { if (this.prev < i.catchLoc) return handle(i.catchLoc, !0); if (this.prev < i.finallyLoc) return handle(i.finallyLoc); } else if (c) { if (this.prev < i.catchLoc) return handle(i.catchLoc, !0); } else { if (!u) throw Error("try statement without catch or finally"); if (this.prev < i.finallyLoc) return handle(i.finallyLoc); } } } }, abrupt: function abrupt(t, e) { for (var r = this.tryEntries.length - 1; r >= 0; --r) { var o = this.tryEntries[r]; if (o.tryLoc <= this.prev && n.call(o, "finallyLoc") && this.prev < o.finallyLoc) { var i = o; break; } } i && ("break" === t || "continue" === t) && i.tryLoc <= e && e <= i.finallyLoc && (i = null); var a = i ? i.completion : {}; return a.type = t, a.arg = e, i ? (this.method = "next", this.next = i.finallyLoc, y) : this.complete(a); }, complete: function complete(t, e) { if ("throw" === t.type) throw t.arg; return "break" === t.type || "continue" === t.type ? this.next = t.arg : "return" === t.type ? (this.rval = this.arg = t.arg, this.method = "return", this.next = "end") : "normal" === t.type && e && (this.next = e), y; }, finish: function finish(t) { for (var e = this.tryEntries.length - 1; e >= 0; --e) { var r = this.tryEntries[e]; if (r.finallyLoc === t) return this.complete(r.completion, r.afterLoc), resetTryEntry(r), y; } }, catch: function _catch(t) { for (var e = this.tryEntries.length - 1; e >= 0; --e) { var r = this.tryEntries[e]; if (r.tryLoc === t) { var n = r.completion; if ("throw" === n.type) { var o = n.arg; resetTryEntry(r); } return o; } } throw Error("illegal catch attempt"); }, delegateYield: function delegateYield(e, r, n) { return this.delegate = { iterator: values(e), resultName: r, nextLoc: n }, "next" === this.method && (this.arg = t), y; } }, e; }
+function asyncGeneratorStep(n, t, e, r, o, a, c) { try { var i = n[a](c), u = i.value; } catch (n) { return void e(n); } i.done ? t(u) : Promise.resolve(u).then(r, o); }
+function _asyncToGenerator(n) { return function () { var t = this, e = arguments; return new Promise(function (r, o) { var a = n.apply(t, e); function _next(n) { asyncGeneratorStep(a, r, o, _next, _throw, "next", n); } function _throw(n) { asyncGeneratorStep(a, r, o, _next, _throw, "throw", n); } _next(void 0); }); }; }
+function _classCallCheck(a, n) { if (!(a instanceof n)) throw new TypeError("Cannot call a class as a function"); }
+function _defineProperties(e, r) { for (var t = 0; t < r.length; t++) { var o = r[t]; o.enumerable = o.enumerable || !1, o.configurable = !0, "value" in o && (o.writable = !0), Object.defineProperty(e, _toPropertyKey(o.key), o); } }
+function _createClass(e, r, t) { return r && _defineProperties(e.prototype, r), t && _defineProperties(e, t), Object.defineProperty(e, "prototype", { writable: !1 }), e; }
+function _toPropertyKey(t) { var i = _toPrimitive(t, "string"); return "symbol" == _typeof(i) ? i : i + ""; }
+function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e = t[Symbol.toPrimitive]; if (void 0 !== e) { var i = e.call(t, r || "default"); if ("object" != _typeof(i)) return i; throw new TypeError("@@toPrimitive must return a primitive value."); } return ("string" === r ? String : Number)(t); }
+/**
+ * ImageCompressor
+ * 画像をリサイズ・圧縮して300KB以下に最適化するクラス
+ *
+ * 使用例:
+ * const compressor = new ImageCompressor();
+ * const optimizedBlob = await compressor.optimizeImage(file);
+ */
+var ImageCompressor = /*#__PURE__*/function () {
+  function ImageCompressor() {
+    _classCallCheck(this, ImageCompressor);
+    this.MAX_SIZE_KB = 300;
+    this.MIN_QUALITY = 0.3;
+    this.MAX_DIMENSION = 1200;
+  }
+
+  /**
+   * FileまたはBlobを300KB以下に最適化
+   * @param {File|Blob} file - 最適化する画像FileまたはBlob
+   * @returns {Promise<Blob>} 最適化されたBlob
+   */
+  return _createClass(ImageCompressor, [{
+    key: "optimizeImage",
+    value: (function () {
+      var _optimizeImage = _asyncToGenerator(/*#__PURE__*/_regeneratorRuntime().mark(function _callee(file) {
+        var canvas, optimizedCanvas;
+        return _regeneratorRuntime().wrap(function _callee$(_context) {
+          while (1) switch (_context.prev = _context.next) {
+            case 0:
+              if (!(file.size <= this.MAX_SIZE_KB * 1024)) {
+                _context.next = 3;
+                break;
+              }
+              console.log("[ImageCompressor] Already optimized: ".concat((file.size / 1024).toFixed(2), "KB"));
+              return _context.abrupt("return", file);
+            case 3:
+              _context.next = 5;
+              return this.fileToCanvas(file);
+            case 5:
+              canvas = _context.sent;
+              // Step 2: リサイズが必要か確認
+              optimizedCanvas = this.resizeIfNeeded(canvas); // Step 3: 品質調整で300KB以下に圧縮
+              return _context.abrupt("return", this.compressToTarget(optimizedCanvas));
+            case 8:
+            case "end":
+              return _context.stop();
+          }
+        }, _callee, this);
+      }));
+      function optimizeImage(_x) {
+        return _optimizeImage.apply(this, arguments);
+      }
+      return optimizeImage;
+    }()
+    /**
+     * FileまたはBlobをCanvasに変換
+     * @param {File|Blob} file - 変換するFileまたはBlob
+     * @returns {Promise<HTMLCanvasElement>} Canvas要素
+     */
+    )
+  }, {
+    key: "fileToCanvas",
+    value: function fileToCanvas(file) {
+      return new Promise(function (resolve, reject) {
+        var img = new Image();
+        var url = URL.createObjectURL(file);
+        img.onload = function () {
+          URL.revokeObjectURL(url);
+          var canvas = document.createElement('canvas');
+          canvas.width = img.width;
+          canvas.height = img.height;
+          var ctx = canvas.getContext('2d');
+          if (!ctx) {
+            reject(new Error('Failed to get canvas context'));
+            return;
+          }
+          ctx.drawImage(img, 0, 0);
+          resolve(canvas);
+        };
+        img.onerror = function () {
+          URL.revokeObjectURL(url);
+          reject(new Error('Failed to load image'));
+        };
+        img.src = url;
+      });
+    }
+
+    /**
+     * 必要に応じてCanvasをリサイズ
+     * @param {HTMLCanvasElement} canvas - リサイズするCanvas
+     * @returns {HTMLCanvasElement} リサイズされたCanvas（不要な場合は元のCanvas）
+     */
+  }, {
+    key: "resizeIfNeeded",
+    value: function resizeIfNeeded(canvas) {
+      var width = canvas.width,
+        height = canvas.height;
+      if (width <= this.MAX_DIMENSION && height <= this.MAX_DIMENSION) {
+        return canvas;
+      }
+      var scale = Math.min(this.MAX_DIMENSION / width, this.MAX_DIMENSION / height);
+      console.log("[ImageCompressor] Resizing: ".concat(width, "x").concat(height, " -> ").concat(Math.round(width * scale), "x").concat(Math.round(height * scale)));
+      return this.resizeCanvas(canvas, scale);
+    }
+
+    /**
+     * 品質を段階的に下げて300KB以下に圧縮
+     * @param {HTMLCanvasElement} canvas - 圧縮するCanvas
+     * @returns {Promise<Blob>} 圧縮されたBlob
+     */
+  }, {
+    key: "compressToTarget",
+    value: (function () {
+      var _compressToTarget = _asyncToGenerator(/*#__PURE__*/_regeneratorRuntime().mark(function _callee2(canvas) {
+        var quality, step, blob, currentBlob, currentSize, scale, resizedCanvas;
+        return _regeneratorRuntime().wrap(function _callee2$(_context2) {
+          while (1) switch (_context2.prev = _context2.next) {
+            case 0:
+              quality = 0.9;
+              step = 0.05;
+            case 2:
+              if (!(quality >= this.MIN_QUALITY)) {
+                _context2.next = 12;
+                break;
+              }
+              _context2.next = 5;
+              return this.canvasToBlob(canvas, quality);
+            case 5:
+              blob = _context2.sent;
+              if (!(blob.size <= this.MAX_SIZE_KB * 1024)) {
+                _context2.next = 9;
+                break;
+              }
+              console.log("[ImageCompressor] Optimized: ".concat((blob.size / 1024).toFixed(2), "KB at quality ").concat(quality.toFixed(2)));
+              return _context2.abrupt("return", blob);
+            case 9:
+              quality -= step;
+              _context2.next = 2;
+              break;
+            case 12:
+              _context2.next = 14;
+              return this.canvasToBlob(canvas, this.MIN_QUALITY);
+            case 14:
+              currentBlob = _context2.sent;
+              currentSize = currentBlob.size;
+              scale = Math.sqrt(this.MAX_SIZE_KB * 1024 / currentSize) * 0.9;
+              console.warn("[ImageCompressor] Further resizing needed, scale: ".concat(scale.toFixed(2)));
+              resizedCanvas = this.resizeCanvas(canvas, scale);
+              return _context2.abrupt("return", this.canvasToBlob(resizedCanvas, this.MIN_QUALITY));
+            case 20:
+            case "end":
+              return _context2.stop();
+          }
+        }, _callee2, this);
+      }));
+      function compressToTarget(_x2) {
+        return _compressToTarget.apply(this, arguments);
+      }
+      return compressToTarget;
+    }()
+    /**
+     * CanvasをBlobに変換
+     * @param {HTMLCanvasElement} canvas - 変換するCanvas
+     * @param {number} quality - JPEG品質 (0.0 - 1.0)
+     * @returns {Promise<Blob>} 変換されたBlob
+     */
+    )
+  }, {
+    key: "canvasToBlob",
+    value: function canvasToBlob(canvas, quality) {
+      return new Promise(function (resolve, reject) {
+        canvas.toBlob(function (blob) {
+          if (blob) {
+            resolve(blob);
+          } else {
+            reject(new Error('Failed to convert canvas to blob'));
+          }
+        }, 'image/jpeg', quality);
+      });
+    }
+
+    /**
+     * Canvasを指定した倍率でリサイズ
+     * @param {HTMLCanvasElement} canvas - リサイズするCanvas
+     * @param {number} scale - リサイズ倍率（0.0 - 1.0）
+     * @returns {HTMLCanvasElement} リサイズされた新しいCanvas
+     */
+  }, {
+    key: "resizeCanvas",
+    value: function resizeCanvas(canvas, scale) {
+      var newCanvas = document.createElement('canvas');
+      newCanvas.width = canvas.width * scale;
+      newCanvas.height = canvas.height * scale;
+      var ctx = newCanvas.getContext('2d');
+      if (!ctx) {
+        throw new Error('Failed to get canvas context');
+      }
+      ctx.imageSmoothingEnabled = true;
+      ctx.imageSmoothingQuality = 'high';
+      ctx.drawImage(canvas, 0, 0, newCanvas.width, newCanvas.height);
+      return newCanvas;
+    }
+  }]);
+}(); // グローバルに公開（レガシーコードからアクセスするため）
+window.ImageCompressor = ImageCompressor;
+function _typeof(o) { "@babel/helpers - typeof"; return _typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function (o) { return typeof o; } : function (o) { return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o; }, _typeof(o); }
+function _regeneratorRuntime() { "use strict"; /*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */ _regeneratorRuntime = function _regeneratorRuntime() { return e; }; var t, e = {}, r = Object.prototype, n = r.hasOwnProperty, o = Object.defineProperty || function (t, e, r) { t[e] = r.value; }, i = "function" == typeof Symbol ? Symbol : {}, a = i.iterator || "@@iterator", c = i.asyncIterator || "@@asyncIterator", u = i.toStringTag || "@@toStringTag"; function define(t, e, r) { return Object.defineProperty(t, e, { value: r, enumerable: !0, configurable: !0, writable: !0 }), t[e]; } try { define({}, ""); } catch (t) { define = function define(t, e, r) { return t[e] = r; }; } function wrap(t, e, r, n) { var i = e && e.prototype instanceof Generator ? e : Generator, a = Object.create(i.prototype), c = new Context(n || []); return o(a, "_invoke", { value: makeInvokeMethod(t, r, c) }), a; } function tryCatch(t, e, r) { try { return { type: "normal", arg: t.call(e, r) }; } catch (t) { return { type: "throw", arg: t }; } } e.wrap = wrap; var h = "suspendedStart", l = "suspendedYield", f = "executing", s = "completed", y = {}; function Generator() {} function GeneratorFunction() {} function GeneratorFunctionPrototype() {} var p = {}; define(p, a, function () { return this; }); var d = Object.getPrototypeOf, v = d && d(d(values([]))); v && v !== r && n.call(v, a) && (p = v); var g = GeneratorFunctionPrototype.prototype = Generator.prototype = Object.create(p); function defineIteratorMethods(t) { ["next", "throw", "return"].forEach(function (e) { define(t, e, function (t) { return this._invoke(e, t); }); }); } function AsyncIterator(t, e) { function invoke(r, o, i, a) { var c = tryCatch(t[r], t, o); if ("throw" !== c.type) { var u = c.arg, h = u.value; return h && "object" == _typeof(h) && n.call(h, "__await") ? e.resolve(h.__await).then(function (t) { invoke("next", t, i, a); }, function (t) { invoke("throw", t, i, a); }) : e.resolve(h).then(function (t) { u.value = t, i(u); }, function (t) { return invoke("throw", t, i, a); }); } a(c.arg); } var r; o(this, "_invoke", { value: function value(t, n) { function callInvokeWithMethodAndArg() { return new e(function (e, r) { invoke(t, n, e, r); }); } return r = r ? r.then(callInvokeWithMethodAndArg, callInvokeWithMethodAndArg) : callInvokeWithMethodAndArg(); } }); } function makeInvokeMethod(e, r, n) { var o = h; return function (i, a) { if (o === f) throw Error("Generator is already running"); if (o === s) { if ("throw" === i) throw a; return { value: t, done: !0 }; } for (n.method = i, n.arg = a;;) { var c = n.delegate; if (c) { var u = maybeInvokeDelegate(c, n); if (u) { if (u === y) continue; return u; } } if ("next" === n.method) n.sent = n._sent = n.arg;else if ("throw" === n.method) { if (o === h) throw o = s, n.arg; n.dispatchException(n.arg); } else "return" === n.method && n.abrupt("return", n.arg); o = f; var p = tryCatch(e, r, n); if ("normal" === p.type) { if (o = n.done ? s : l, p.arg === y) continue; return { value: p.arg, done: n.done }; } "throw" === p.type && (o = s, n.method = "throw", n.arg = p.arg); } }; } function maybeInvokeDelegate(e, r) { var n = r.method, o = e.iterator[n]; if (o === t) return r.delegate = null, "throw" === n && e.iterator.return && (r.method = "return", r.arg = t, maybeInvokeDelegate(e, r), "throw" === r.method) || "return" !== n && (r.method = "throw", r.arg = new TypeError("The iterator does not provide a '" + n + "' method")), y; var i = tryCatch(o, e.iterator, r.arg); if ("throw" === i.type) return r.method = "throw", r.arg = i.arg, r.delegate = null, y; var a = i.arg; return a ? a.done ? (r[e.resultName] = a.value, r.next = e.nextLoc, "return" !== r.method && (r.method = "next", r.arg = t), r.delegate = null, y) : a : (r.method = "throw", r.arg = new TypeError("iterator result is not an object"), r.delegate = null, y); } function pushTryEntry(t) { var e = { tryLoc: t[0] }; 1 in t && (e.catchLoc = t[1]), 2 in t && (e.finallyLoc = t[2], e.afterLoc = t[3]), this.tryEntries.push(e); } function resetTryEntry(t) { var e = t.completion || {}; e.type = "normal", delete e.arg, t.completion = e; } function Context(t) { this.tryEntries = [{ tryLoc: "root" }], t.forEach(pushTryEntry, this), this.reset(!0); } function values(e) { if (e || "" === e) { var r = e[a]; if (r) return r.call(e); if ("function" == typeof e.next) return e; if (!isNaN(e.length)) { var o = -1, i = function next() { for (; ++o < e.length;) if (n.call(e, o)) return next.value = e[o], next.done = !1, next; return next.value = t, next.done = !0, next; }; return i.next = i; } } throw new TypeError(_typeof(e) + " is not iterable"); } return GeneratorFunction.prototype = GeneratorFunctionPrototype, o(g, "constructor", { value: GeneratorFunctionPrototype, configurable: !0 }), o(GeneratorFunctionPrototype, "constructor", { value: GeneratorFunction, configurable: !0 }), GeneratorFunction.displayName = define(GeneratorFunctionPrototype, u, "GeneratorFunction"), e.isGeneratorFunction = function (t) { var e = "function" == typeof t && t.constructor; return !!e && (e === GeneratorFunction || "GeneratorFunction" === (e.displayName || e.name)); }, e.mark = function (t) { return Object.setPrototypeOf ? Object.setPrototypeOf(t, GeneratorFunctionPrototype) : (t.__proto__ = GeneratorFunctionPrototype, define(t, u, "GeneratorFunction")), t.prototype = Object.create(g), t; }, e.awrap = function (t) { return { __await: t }; }, defineIteratorMethods(AsyncIterator.prototype), define(AsyncIterator.prototype, c, function () { return this; }), e.AsyncIterator = AsyncIterator, e.async = function (t, r, n, o, i) { void 0 === i && (i = Promise); var a = new AsyncIterator(wrap(t, r, n, o), i); return e.isGeneratorFunction(r) ? a : a.next().then(function (t) { return t.done ? t.value : a.next(); }); }, defineIteratorMethods(g), define(g, u, "Generator"), define(g, a, function () { return this; }), define(g, "toString", function () { return "[object Generator]"; }), e.keys = function (t) { var e = Object(t), r = []; for (var n in e) r.push(n); return r.reverse(), function next() { for (; r.length;) { var t = r.pop(); if (t in e) return next.value = t, next.done = !1, next; } return next.done = !0, next; }; }, e.values = values, Context.prototype = { constructor: Context, reset: function reset(e) { if (this.prev = 0, this.next = 0, this.sent = this._sent = t, this.done = !1, this.delegate = null, this.method = "next", this.arg = t, this.tryEntries.forEach(resetTryEntry), !e) for (var r in this) "t" === r.charAt(0) && n.call(this, r) && !isNaN(+r.slice(1)) && (this[r] = t); }, stop: function stop() { this.done = !0; var t = this.tryEntries[0].completion; if ("throw" === t.type) throw t.arg; return this.rval; }, dispatchException: function dispatchException(e) { if (this.done) throw e; var r = this; function handle(n, o) { return a.type = "throw", a.arg = e, r.next = n, o && (r.method = "next", r.arg = t), !!o; } for (var o = this.tryEntries.length - 1; o >= 0; --o) { var i = this.tryEntries[o], a = i.completion; if ("root" === i.tryLoc) return handle("end"); if (i.tryLoc <= this.prev) { var c = n.call(i, "catchLoc"), u = n.call(i, "finallyLoc"); if (c && u) { if (this.prev < i.catchLoc) return handle(i.catchLoc, !0); if (this.prev < i.finallyLoc) return handle(i.finallyLoc); } else if (c) { if (this.prev < i.catchLoc) return handle(i.catchLoc, !0); } else { if (!u) throw Error("try statement without catch or finally"); if (this.prev < i.finallyLoc) return handle(i.finallyLoc); } } } }, abrupt: function abrupt(t, e) { for (var r = this.tryEntries.length - 1; r >= 0; --r) { var o = this.tryEntries[r]; if (o.tryLoc <= this.prev && n.call(o, "finallyLoc") && this.prev < o.finallyLoc) { var i = o; break; } } i && ("break" === t || "continue" === t) && i.tryLoc <= e && e <= i.finallyLoc && (i = null); var a = i ? i.completion : {}; return a.type = t, a.arg = e, i ? (this.method = "next", this.next = i.finallyLoc, y) : this.complete(a); }, complete: function complete(t, e) { if ("throw" === t.type) throw t.arg; return "break" === t.type || "continue" === t.type ? this.next = t.arg : "return" === t.type ? (this.rval = this.arg = t.arg, this.method = "return", this.next = "end") : "normal" === t.type && e && (this.next = e), y; }, finish: function finish(t) { for (var e = this.tryEntries.length - 1; e >= 0; --e) { var r = this.tryEntries[e]; if (r.finallyLoc === t) return this.complete(r.completion, r.afterLoc), resetTryEntry(r), y; } }, catch: function _catch(t) { for (var e = this.tryEntries.length - 1; e >= 0; --e) { var r = this.tryEntries[e]; if (r.tryLoc === t) { var n = r.completion; if ("throw" === n.type) { var o = n.arg; resetTryEntry(r); } return o; } } throw Error("illegal catch attempt"); }, delegateYield: function delegateYield(e, r, n) { return this.delegate = { iterator: values(e), resultName: r, nextLoc: n }, "next" === this.method && (this.arg = t), y; } }, e; }
+function asyncGeneratorStep(n, t, e, r, o, a, c) { try { var i = n[a](c), u = i.value; } catch (n) { return void e(n); } i.done ? t(u) : Promise.resolve(u).then(r, o); }
+function _asyncToGenerator(n) { return function () { var t = this, e = arguments; return new Promise(function (r, o) { var a = n.apply(t, e); function _next(n) { asyncGeneratorStep(a, r, o, _next, _throw, "next", n); } function _throw(n) { asyncGeneratorStep(a, r, o, _next, _throw, "throw", n); } _next(void 0); }); }; }
+window.addEventListener('DOMContentLoaded', function () {
+  var input_upload_file = document.getElementById('js-comment-upload-file');
+  if (!input_upload_file) return;
+
+  // ImageCompressorのインスタンスを作成
+  var compressor = new ImageCompressor();
+
+  // 圧縮済みBlobを保持する変数（グローバルスコープで後から参照可能にする）
+  var compressedBlob = null;
+  input_upload_file.addEventListener('change', /*#__PURE__*/function () {
+    var _ref = _asyncToGenerator(/*#__PURE__*/_regeneratorRuntime().mark(function _callee(e) {
+      var file, preview, uploadLabel, originalSize, compressedSize, reader;
+      return _regeneratorRuntime().wrap(function _callee$(_context) {
+        while (1) switch (_context.prev = _context.next) {
+          case 0:
+            file = e.target.files[0];
+            if (file) {
+              _context.next = 3;
+              break;
+            }
+            return _context.abrupt("return");
+          case 3:
+            if (file.type.includes('image')) {
+              _context.next = 7;
+              break;
+            }
+            alert(I18n.t('js.shared.archive_comments.image.error_not_image') || 'Please select an image file');
+            input_upload_file.value = '';
+            return _context.abrupt("return");
+          case 7:
+            preview = document.getElementById('js-form-file-preview');
+            uploadLabel = input_upload_file.parentElement.getElementsByTagName('span')[0];
+            _context.prev = 9;
+            // ローディング表示
+            preview.innerHTML = '<div class="c-loading">Compressing...</div>';
+            uploadLabel.innerText = 'Compressing...';
+
+            // 画像圧縮実行
+            originalSize = file.size;
+            _context.next = 15;
+            return compressor.optimizeImage(file);
+          case 15:
+            compressedBlob = _context.sent;
+            compressedSize = compressedBlob.size; // プレビュー表示
+            reader = new FileReader();
+            reader.onload = function (e) {
+              var originalSizeKB = (originalSize / 1024).toFixed(2);
+              var compressedSizeKB = (compressedSize / 1024).toFixed(2);
+
+              // 圧縮前後のサイズ情報を表示
+              var sizeInfo = '';
+              if (originalSize > compressedSize) {
+                sizeInfo = "<div class=\"c-image-info\" style=\"font-size: 12px; color: #666; margin-top: 4px;\">".concat(originalSizeKB, "KB \u2192 ").concat(compressedSizeKB, "KB</div>");
+              }
+              preview.innerHTML = "\n          <img src=\"".concat(e.target.result, "\" title=\"").concat(file.name, "\">\n          ").concat(sizeInfo, "\n        ");
+              uploadLabel.innerText = I18n.t('js.shared.archive_comments.image.text_1') || 'Image selected';
+            };
+            reader.readAsDataURL(compressedBlob);
+            _context.next = 30;
+            break;
+          case 22:
+            _context.prev = 22;
+            _context.t0 = _context["catch"](9);
+            console.error('Image compression failed:', _context.t0);
+            alert(I18n.t('js.shared.archive_comments.image.error_compression_failed') || 'Image compression failed. Please select another image.');
+            input_upload_file.value = '';
+            preview.innerHTML = '';
+            uploadLabel.innerText = I18n.t('js.shared.archive_comments.image.text_upload') || 'Upload image';
+            compressedBlob = null;
+          case 30:
+          case "end":
+            return _context.stop();
+        }
+      }, _callee, null, [[9, 22]]);
+    }));
+    return function (_x) {
+      return _ref.apply(this, arguments);
+    };
+  }());
+
+  // 圧縮済みBlobを取得する関数をグローバルに公開
+  window.getCompressedImageBlob = function () {
+    return compressedBlob;
+  };
+});
+window.addEventListener("DOMContentLoaded", function () {
+  window.report_comment = function (id, order_id) {
+    if (confirm(I18n.t('js.shared.archive_comments.report.text_1', {
+      order_id: order_id
+    }))) {
+      var token = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
+      fetchJSON("/api/archive_comments/".concat(id, "/report"), {
+        method: 'POST',
+        referrer: self.location.origin,
+        headers: {
+          'X-CSRF-Token': token
+        }
+      }).then(function (res) {
+        if (!res.ok) {
+          return alert(I18n.t('js.shared.archive_comments.report.alert_2'));
+        }
+        alert(I18n.t('js.shared.archive_comments.report.alert_1'));
+        return location.reload();
+      });
+    }
+  };
+  if (!window.forum) {
+    window.forum = {};
+  }
+  window.forum.reportComment = function (id, order_id) {
+    if (confirm(I18n.t('js.shared.forum_comment.text_3', {
+      order_id: order_id
+    }))) {
+      var forum_token = document.querySelector('meta[name="csrf-token"]').getAttribute('content');
+      fetchJSON("/api/forum_comments/".concat(id, "/report"), {
+        method: 'POST',
+        referrer: self.location.origin,
+        headers: {
+          'X-CSRF-Token': forum_token
+        }
+      }).then(function (res) {
+        console.log(res);
+        if (!res.ok) {
+          return alert(I18n.t('js.shared.forum_comment.alert_2'));
+        }
+        alert(I18n.t('js.shared.forum_comment.text_4'));
+        return location.reload();
+      });
+    }
+  };
+});
